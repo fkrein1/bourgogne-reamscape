@@ -46,6 +46,16 @@ function safeNumber(value) {
   return typeof value === "number" && Number.isFinite(value) ? value : null;
 }
 
+function isUnknownText(value) {
+  if (typeof value !== "string") return true;
+  const normalized = value.trim().toLowerCase();
+  return normalized === "" || normalized === "unknown" || normalized === "n/a";
+}
+
+function normalizeLookupKey(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
 function inBourgogneBounds(lat, lng) {
   return (
     typeof lat === "number" &&
@@ -82,8 +92,8 @@ function toId(value) {
 }
 
 function buildSceneData() {
-  const winesRaw = readJson(path.join(sourceDir, files.wines));
   const producersRaw = readJson(path.join(sourceDir, files.producers));
+  const winesRaw = readJson(path.join(sourceDir, files.wines));
   const subRegionsRaw = readJson(path.join(sourceDir, files.subRegions));
   const grapesRaw = readJson(path.join(sourceDir, files.grapes));
   const producerGrapeGeoRaw = readJson(path.join(sourceDir, files.producerGrapeGeo));
@@ -95,29 +105,52 @@ function buildSceneData() {
   });
   const producerOverridesRaw = readOptionalJson(path.join(sourceDir, files.producerOverrides), {});
 
-  const wines = (winesRaw.items || []).map((wine) => ({
-    id: wine.id,
-    slug: wine.slug,
-    title: wine.name_product || wine.title_listing,
-    title_listing: wine.title_listing,
-    url: wine.url,
-    image: wine.image,
-    producer: wine.producer,
-    sub_region: wine.sub_region,
-    grape: wine.grape,
-    bottle_size: wine.bottle_size,
-    stock: safeNumber(wine.stock),
-    description: wine.description,
-    style_keywords: wine?.derived?.style_keywords || [],
-    price_bucket: wine?.derived?.price_bucket || "unknown",
-    price: safeNumber(wine?.price_brl?.listing_sale_price) || safeNumber(wine?.price_brl?.product_ldjson_price),
-    map: {
-      lat: safeNumber(wine?.map?.lat),
-      lng: safeNumber(wine?.map?.lng),
-      source: wine?.map?.source || "unknown",
-      confidence: safeNumber(wine?.map?.confidence),
-    },
-  }));
+  const producerPrimarySubRegionByName = new Map(
+    (producersRaw.items || []).map((producer) => [
+      normalizeLookupKey(producer.producer),
+      typeof producer.primary_sub_region === "string"
+        ? producer.primary_sub_region.trim()
+        : "",
+    ]),
+  );
+
+  const wines = (winesRaw.items || []).map((wine) => {
+    const originalSubRegion =
+      typeof wine.sub_region === "string" ? wine.sub_region.trim() : "";
+    const fallbackSubRegion = producerPrimarySubRegionByName.get(
+      normalizeLookupKey(wine.producer),
+    );
+    const subRegion =
+      isUnknownText(originalSubRegion) && !isUnknownText(fallbackSubRegion)
+        ? fallbackSubRegion
+        : originalSubRegion;
+
+    return {
+      id: wine.id,
+      slug: wine.slug,
+      title: wine.name_product || wine.title_listing,
+      title_listing: wine.title_listing,
+      url: wine.url,
+      image: wine.image,
+      producer: wine.producer,
+      sub_region: subRegion,
+      grape: wine.grape,
+      bottle_size: wine.bottle_size,
+      stock: safeNumber(wine.stock),
+      description: wine.description,
+      style_keywords: wine?.derived?.style_keywords || [],
+      price_bucket: wine?.derived?.price_bucket || "unknown",
+      price:
+        safeNumber(wine?.price_brl?.listing_sale_price) ||
+        safeNumber(wine?.price_brl?.product_ldjson_price),
+      map: {
+        lat: safeNumber(wine?.map?.lat),
+        lng: safeNumber(wine?.map?.lng),
+        source: wine?.map?.source || "unknown",
+        confidence: safeNumber(wine?.map?.confidence),
+      },
+    };
+  });
 
   const wineSubRegionPoints = new Map();
   for (const wine of wines) {
@@ -232,7 +265,8 @@ function buildSceneData() {
     type: "FeatureCollection",
     features: (subRegionPolygonsGeoRaw.features || []).map((feature) => {
       const props = feature?.properties || {};
-      const regionId = toId(props.id || props.sub_region);
+      // Prefer sub_region label because upstream polygon id may strip accented characters.
+      const regionId = toId(props.sub_region || props.id);
       const region = subRegionById.get(regionId);
       return {
         ...feature,

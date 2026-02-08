@@ -8,6 +8,10 @@ type Props = {
 
 export function ProducerCard({ producer, wines }: Props) {
   if (!producer) return null;
+  const isUnknownLabel = (value: string | null | undefined) => {
+    const normalized = (value || "").trim().toLowerCase();
+    return normalized === "" || normalized === "unknown" || normalized === "n/a";
+  };
 
   const leadGrapeEntry = Object.entries(producer.grapes ?? {}).sort(
     (a, b) => b[1] - a[1],
@@ -50,22 +54,31 @@ export function ProducerCard({ producer, wines }: Props) {
       </div>
 
       <div className="bourgogne-wine-list">
-        {wines.map((wine) => (
-          <button
-            key={wine.id}
-            onClick={() => window.open(wine.url, "_blank", "noopener,noreferrer")}
-            title="Open wine page"
-            type="button"
-          >
-            <div className="bourgogne-wine-row-main">
-              <p>{wine.title}</p>
-              <span>
-                {wine.grape || "Unknown grape"} • {wine.sub_region || "Unknown sub-region"}
-              </span>
-            </div>
-            <strong className="bourgogne-wine-row-price">{money(wine.price)}</strong>
-          </button>
-        ))}
+        {wines.map((wine) => {
+          const grapeLabel = isUnknownLabel(wine.grape)
+            ? "Grape not listed"
+            : wine.grape;
+          const subRegionLabel = isUnknownLabel(wine.sub_region)
+            ? producer.primary_sub_region || "Sub-region not listed"
+            : wine.sub_region;
+
+          return (
+            <button
+              key={wine.id}
+              onClick={() => window.open(wine.url, "_blank", "noopener,noreferrer")}
+              title="Open wine page"
+              type="button"
+            >
+              <div className="bourgogne-wine-row-main">
+                <p>{wine.title}</p>
+                <span>
+                  {grapeLabel} • {subRegionLabel}
+                </span>
+              </div>
+              <strong className="bourgogne-wine-row-price">{money(wine.price)}</strong>
+            </button>
+          );
+        })}
       </div>
     </section>
   );

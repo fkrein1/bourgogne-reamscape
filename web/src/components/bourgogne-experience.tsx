@@ -384,13 +384,26 @@ export function BourgogneExperience() {
       [lng, lat] = feature.geometry.coordinates as [number, number];
     }
     const props = (feature.properties ?? {}) as Record<string, string | number>;
+    const readNumericProp = (value: string | number | undefined) => {
+      if (typeof value === "number" && Number.isFinite(value)) return value;
+      if (typeof value === "string") {
+        const parsed = Number(value);
+        return Number.isFinite(parsed) ? parsed : null;
+      }
+      return null;
+    };
 
     if (feature.layer.id === "subregion-polygon-fill-layer") {
+      const wineCount = readNumericProp(props.wine_count);
+      const producerCount = readNumericProp(props.producer_count);
       setHoverInfo({
         lat,
         lng,
         title: String(props.sub_region ?? props.name ?? "Sub-region"),
-        subtitle: `${props.wine_count ?? 0} wines • ${props.producer_count ?? 0} producers`,
+        subtitle:
+          wineCount !== null && producerCount !== null
+            ? `${wineCount} wines • ${producerCount} producers`
+            : "Region stats unavailable",
       });
       return;
     }
@@ -414,7 +427,7 @@ export function BourgogneExperience() {
         lat,
         lng,
         title: String(props.producer ?? "Producer"),
-        subtitle: `${String(props.grape ?? "") || "Unknown"} • ${props.wine_count ?? 0} labels`,
+        subtitle: `${String(props.grape ?? "") || "Grape not listed"} • ${props.wine_count ?? 0} labels`,
       });
       return;
     }
@@ -503,23 +516,25 @@ export function BourgogneExperience() {
       <div className="bourgogne-atmosphere" />
       <div className="bourgogne-vignette" />
 
-      <Hero
-        counts={{
-          wines: scene.counts.wines,
-          producers: scene.counts.producers,
-          grapes: scene.counts.grapes,
-        }}
-      />
+      <div className="bourgogne-top-hud">
+        <Hero
+          counts={{
+            wines: scene.counts.wines,
+            producers: scene.counts.producers,
+            grapes: scene.counts.grapes,
+          }}
+        />
 
-      <Controls
-        mode={mode}
-        onModeChange={handleModeChange}
-        grapes={grapes}
-        selectedGrape={selectedGrape}
-        onGrapeChange={setSelectedGrape}
-        selectedPriceBucket={selectedPriceBucket}
-        onPriceBucketChange={setSelectedPriceBucket}
-      />
+        <Controls
+          mode={mode}
+          onModeChange={handleModeChange}
+          grapes={grapes}
+          selectedGrape={selectedGrape}
+          onGrapeChange={setSelectedGrape}
+          selectedPriceBucket={selectedPriceBucket}
+          onPriceBucketChange={setSelectedPriceBucket}
+        />
+      </div>
 
       {mode === "story" ? (
         <StoryPanel
