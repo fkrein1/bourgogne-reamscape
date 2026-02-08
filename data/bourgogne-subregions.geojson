@@ -1,0 +1,653 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.971422,
+          47.131447
+        ]
+      },
+      "properties": {
+        "sub_region": "Côte De Nuits",
+        "wine_count": 32,
+        "producer_count": 7,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 4872.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.835428,
+          47.148943
+        ]
+      },
+      "properties": {
+        "sub_region": "Unknown",
+        "wine_count": 27,
+        "producer_count": 11,
+        "location_source": "derived_from_wines",
+        "location_confidence": 0.5,
+        "price_avg": 5164.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.800166,
+          47.815207
+        ]
+      },
+      "properties": {
+        "sub_region": "Chablis",
+        "wine_count": 24,
+        "producer_count": 4,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1099.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.78111,
+          47.001695
+        ]
+      },
+      "properties": {
+        "sub_region": "Volnay",
+        "wine_count": 21,
+        "producer_count": 3,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 2315.67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.970567,
+          47.226186
+        ]
+      },
+      "properties": {
+        "sub_region": "Gevrey-Chambertin",
+        "wine_count": 20,
+        "producer_count": 6,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 4219.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.068142,
+          49.35551
+        ]
+      },
+      "properties": {
+        "sub_region": "Bourgogne",
+        "wine_count": 19,
+        "producer_count": 6,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 576.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.953335,
+          47.186416
+        ]
+      },
+      "properties": {
+        "sub_region": "Chambolle-Musigny",
+        "wine_count": 18,
+        "producer_count": 4,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 7330.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838043,
+          47.023906
+        ]
+      },
+      "properties": {
+        "sub_region": "Beaune",
+        "wine_count": 16,
+        "producer_count": 3,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1916.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.753152,
+          46.94873
+        ]
+      },
+      "properties": {
+        "sub_region": "Puligny-Montrachet",
+        "wine_count": 13,
+        "producer_count": 4,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1547.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.72736,
+          46.93636
+        ]
+      },
+      "properties": {
+        "sub_region": "Chassagne-Montrachet",
+        "wine_count": 11,
+        "producer_count": 4,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 4809.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.796229,
+          47.008792
+        ]
+      },
+      "properties": {
+        "sub_region": "Pommard",
+        "wine_count": 11,
+        "producer_count": 4,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 2219.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.954762,
+          47.15858
+        ]
+      },
+      "properties": {
+        "sub_region": "Vosne-Romanée",
+        "wine_count": 11,
+        "producer_count": 2,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 4269.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.832227,
+          46.303668
+        ]
+      },
+      "properties": {
+        "sub_region": "Mâcon",
+        "wine_count": 10,
+        "producer_count": 2,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 501.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.845323,
+          47.022711
+        ]
+      },
+      "properties": {
+        "sub_region": "Côte De Beaune",
+        "wine_count": 9,
+        "producer_count": 5,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1428.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.765808,
+          46.992872
+        ]
+      },
+      "properties": {
+        "sub_region": "Monthelie",
+        "wine_count": 9,
+        "producer_count": 5,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1087.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.948906,
+          47.13676
+        ]
+      },
+      "properties": {
+        "sub_region": "Nuits-Saint-Georges",
+        "wine_count": 9,
+        "producer_count": 4,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1548.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.818553,
+          47.062861
+        ]
+      },
+      "properties": {
+        "sub_region": "Savigny-les-Beaune",
+        "wine_count": 8,
+        "producer_count": 3,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1140.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.859633,
+          47.065347
+        ]
+      },
+      "properties": {
+        "sub_region": "Aloxe-Corton",
+        "wine_count": 6,
+        "producer_count": 3,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 3739.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.769404,
+          46.97838
+        ]
+      },
+      "properties": {
+        "sub_region": "Meursault",
+        "wine_count": 6,
+        "producer_count": 2,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 2237.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.718927,
+          46.839658
+        ]
+      },
+      "properties": {
+        "sub_region": "Mercurey",
+        "wine_count": 5,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 874.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.743542,
+          46.875806
+        ]
+      },
+      "properties": {
+        "sub_region": "Rully",
+        "wine_count": 5,
+        "producer_count": 2,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1227.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.964315,
+          47.177235
+        ]
+      },
+      "properties": {
+        "sub_region": "Vougeot",
+        "wine_count": 5,
+        "producer_count": 2,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 5392.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.726572,
+          46.889767
+        ]
+      },
+      "properties": {
+        "sub_region": "Bouzeron",
+        "wine_count": 2,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 686.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.685731,
+          46.694577
+        ]
+      },
+      "properties": {
+        "sub_region": "Côte Chalonnaise",
+        "wine_count": 2,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1051.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.988422,
+          47.270544
+        ]
+      },
+      "properties": {
+        "sub_region": "Marsannay",
+        "wine_count": 2,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 876.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.973747,
+          46.797909
+        ]
+      },
+      "properties": {
+        "sub_region": "Montagny",
+        "wine_count": 2,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 789.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.785808,
+          46.276452
+        ]
+      },
+      "properties": {
+        "sub_region": "Pouilly-Fuissé",
+        "wine_count": 2,
+        "producer_count": 2,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 871.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.708385,
+          46.998239
+        ]
+      },
+      "properties": {
+        "sub_region": "Saint-Romain",
+        "wine_count": 2,
+        "producer_count": 2,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 786.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.786921,
+          46.916211
+        ]
+      },
+      "properties": {
+        "sub_region": "Saint-Véran",
+        "wine_count": 2,
+        "producer_count": 2,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 616.31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.843668,
+          46.449378
+        ]
+      },
+      "properties": {
+        "sub_region": "Viré-Clessé",
+        "wine_count": 2,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 901.41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.746792,
+          46.986224
+        ]
+      },
+      "properties": {
+        "sub_region": "Auxey-Duresses",
+        "wine_count": 1,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 714.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.866617,
+          47.047875
+        ]
+      },
+      "properties": {
+        "sub_region": "Chorey-lès-Beaune",
+        "wine_count": 1,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 777.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.887259,
+          47.066866
+        ]
+      },
+      "properties": {
+        "sub_region": "Ladoix-Serrigny",
+        "wine_count": 1,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 814.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.782564,
+          46.27891
+        ]
+      },
+      "properties": {
+        "sub_region": "Pouilly-Vinzelles",
+        "wine_count": 1,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 498.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.708875,
+          46.950098
+        ]
+      },
+      "properties": {
+        "sub_region": "Saint-Aubin",
+        "wine_count": 1,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 1251.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.69963,
+          46.911507
+        ]
+      },
+      "properties": {
+        "sub_region": "Santenay",
+        "wine_count": 1,
+        "producer_count": 1,
+        "location_source": "sub_region_geocode",
+        "location_confidence": 0.7,
+        "price_avg": 814.84
+      }
+    }
+  ]
+}

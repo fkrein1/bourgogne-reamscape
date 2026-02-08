@@ -1,0 +1,254 @@
+{
+  "generated_at_unix": 1770578097,
+  "total": 35,
+  "matched": 30,
+  "missing": [
+    "Côte De Beaune",
+    "Côte De Nuits",
+    "Pouilly-Fuissé",
+    "Pouilly-Vinzelles",
+    "Viré-Clessé"
+  ],
+  "matches": [
+    {
+      "sub_region": "Aloxe-Corton",
+      "query": "Aloxe-Corton, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Aloxe-Corton, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21420, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Auxey-Duresses",
+      "query": "Auxey-Duresses, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Auxey-Duresses, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Beaune",
+      "query": "Beaune, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Bourgogne",
+      "query": "Bourgogne, Bourgogne, France",
+      "score": 2.8,
+      "display_name": "Bourgogne, Bourgogne-Fresne, Reims, Marne, Grand Est, France métropolitaine, 51110, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Bouzeron",
+      "query": "Bouzeron, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Bouzeron, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71150, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Chablis",
+      "query": "Chablis, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Chablis, Auxerre, Yonne, Bourgogne-Franche-Comté, France métropolitaine, 89800, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Chambolle-Musigny",
+      "query": "Chambolle-Musigny, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Chambolle-Musigny, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21220, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Chassagne-Montrachet",
+      "query": "Chassagne-Montrachet, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Chassagne-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Chorey-lès-Beaune",
+      "query": "Chorey-lès-Beaune, Bourgogne, France",
+      "score": 1.6,
+      "display_name": "Chorey-les-Beaune, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Côte Chalonnaise",
+      "query": "Côte Chalonnaise, Bourgogne, France",
+      "score": 2.8,
+      "display_name": "Communauté de communes Sud Côte Chalonnaise, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71390, France",
+      "item_type": "local_authority",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Gevrey-Chambertin",
+      "query": "Gevrey-Chambertin, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Gevrey-Chambertin, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21220, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Ladoix-Serrigny",
+      "query": "Ladoix-Serrigny, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Ladoix-Serrigny, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21550, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Marsannay",
+      "query": "Marsannay, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Marsannay-la-Côte, Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21160, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Mercurey",
+      "query": "Mercurey, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Mercurey, Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Meursault",
+      "query": "Meursault, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Meursault, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Montagny",
+      "query": "Montagny, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Montagny-lès-Beaune, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Monthelie",
+      "query": "Monthelie, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Monthelie, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Mâcon",
+      "query": "Mâcon, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71000, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Nuits-Saint-Georges",
+      "query": "Nuits-Saint-Georges, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Pommard",
+      "query": "Pommard, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Pommard, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21630, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Puligny-Montrachet",
+      "query": "Puligny-Montrachet, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Puligny-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Rully",
+      "query": "Rully, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Rully, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71150, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Saint-Aubin",
+      "query": "Saint-Aubin, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Saint-Aubin, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Saint-Romain",
+      "query": "Saint-Romain, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Saint-Romain, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Saint-Véran",
+      "query": "Saint-Véran, France",
+      "score": 2.0,
+      "display_name": "Saint-Véran, Briançon, Hautes-Alpes, Provence-Alpes-Côte d'Azur, France métropolitaine, 05350, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Santenay",
+      "query": "Santenay, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Santenay, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21590, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Savigny-les-Beaune",
+      "query": "Savigny-les-Beaune, Bourgogne, France",
+      "score": 1.6,
+      "display_name": "Savigny-lès-Beaune, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21420, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Volnay",
+      "query": "Volnay, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Volnay, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Vosne-Romanée",
+      "query": "Vosne-Romanée, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Vosne-Romanée, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+      "item_type": "administrative",
+      "item_class": ""
+    },
+    {
+      "sub_region": "Vougeot",
+      "query": "Vougeot, Bourgogne, France",
+      "score": 3.2,
+      "display_name": "Vougeot, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21640, France",
+      "item_type": "administrative",
+      "item_class": ""
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "generated_at_unix": 1770575782,
+  "count": 5,
+  "items": [
+    {
+      "grape": "Pinot Noir",
+      "wine_count": 189,
+      "producer_count": 14,
+      "producers": [
+        "Domaine Aubert & Paméla de Villaine",
+        "Domaine Comte Georges de Vogüé",
+        "Domaine Cécile Tremblay",
+        "Domaine Dugat-Py",
+        "Domaine Jean-Marc Millot",
+        "Domaine Robert Groffier",
+        "Domaine Simon Bize",
+        "Domaine Stéphane Magnien",
+        "Domaine de Montille",
+        "Domaine des Comtes Lafon",
+        "Domaine du Comte Liger-Belair",
+        "Faiveley",
+        "Joseph Drouhin",
+        "Maison de Montille"
+      ],
+      "price_brl": {
+        "min": 313.01,
+        "max": 20192.3,
+        "avg": 3559.58
+      },
+      "centroid": {
+        "lat": 47.219379,
+        "lng": 4.854723
+      },
+      "dominant_style_keywords": [
+        "fruity",
+        "complex",
+        "elegant",
+        "structured",
+        "mineral",
+        "floral",
+        "fresh",
+        "persistent"
+      ]
+    },
+    {
+      "grape": "Chardonnay",
+      "wine_count": 103,
+      "producer_count": 13,
+      "producers": [
+        "Deux Montille",
+        "Domaine Aubert & Paméla de Villaine",
+        "Domaine Billaud-Simon",
+        "Domaine Bonneau du Martray",
+        "Domaine Jacques Carillon",
+        "Domaine Jean Paul Droin",
+        "Domaine Simon Bize",
+        "Domaine de Montille",
+        "Domaine des Comtes Lafon",
+        "Faiveley",
+        "Joseph Drouhin",
+        "Les Héritiers du Comte Lafon",
+        "Maison de Montille"
+      ],
+      "price_brl": {
+        "min": 269.1,
+        "max": 15864.04,
+        "avg": 1800.57
+      },
+      "centroid": {
+        "lat": 47.297606,
+        "lng": 4.488925
+      },
+      "dominant_style_keywords": [
+        "fruity",
+        "mineral",
+        "complex",
+        "fresh",
+        "floral",
+        "elegant",
+        "balanced",
+        "acidic"
+      ]
+    },
+    {
+      "grape": "Unknown",
+      "wine_count": 19,
+      "producer_count": 10,
+      "producers": [
+        "Château de Puligny-Montrachet",
+        "Domaine Aubert & Paméla de Villaine",
+        "Domaine Billaud-Simon",
+        "Domaine Dugat-Py",
+        "Domaine Jean-Marc Millot",
+        "Domaine de Montille",
+        "Faiveley",
+        "Joseph Drouhin",
+        "Les Héritiers du Comte Lafon",
+        "Maison de Montille"
+      ],
+      "price_brl": {
+        "min": 476.11,
+        "max": 6266.58,
+        "avg": 1658.74
+      },
+      "centroid": {
+        "lat": 46.860938,
+        "lng": 4.790557
+      },
+      "dominant_style_keywords": [
+        "fruity",
+        "complex",
+        "mineral",
+        "balanced",
+        "elegant",
+        "woody_oak",
+        "floral",
+        "acidic"
+      ]
+    },
+    {
+      "grape": "Aligoté",
+      "wine_count": 5,
+      "producer_count": 3,
+      "producers": [
+        "Domaine Aubert & Paméla de Villaine",
+        "Domaine Jean-Marc Millot",
+        "Joseph Drouhin"
+      ],
+      "price_brl": {
+        "min": 329.33,
+        "max": 686.88,
+        "avg": 566.19
+      },
+      "centroid": {
+        "lat": 47.479588,
+        "lng": 4.692826
+      },
+      "dominant_style_keywords": [
+        "mineral",
+        "fruity",
+        "fresh"
+      ]
+    },
+    {
+      "grape": "Gamay",
+      "wine_count": 1,
+      "producer_count": 1,
+      "producers": [
+        "Joseph Drouhin"
+      ],
+      "price_brl": {
+        "min": 814.84,
+        "max": 814.84,
+        "avg": 814.84
+      },
+      "centroid": {
+        "lat": 46.911507,
+        "lng": 4.69963
+      },
+      "dominant_style_keywords": [
+        "fruity",
+        "structured"
+      ]
+    }
+  ]
+}

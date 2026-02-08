@@ -1,0 +1,873 @@
+{
+  "generated_at_unix": 1770575782,
+  "count": 36,
+  "items": [
+    {
+      "sub_region": "Côte De Nuits",
+      "wine_count": 32,
+      "producer_count": 7,
+      "producers": [
+        "Domaine Comte Georges de Vogüé",
+        "Domaine Cécile Tremblay",
+        "Domaine Jean-Marc Millot",
+        "Domaine Robert Groffier",
+        "Domaine Stéphane Magnien",
+        "Domaine du Comte Liger-Belair",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 29,
+        "Aligoté": 2
+      },
+      "price_brl": {
+        "min": 563.93,
+        "max": 20192.3,
+        "avg": 4872.59
+      },
+      "location": {
+        "lat": 47.131447,
+        "lng": 4.971422,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Unknown",
+      "wine_count": 27,
+      "producer_count": 11,
+      "producers": [
+        "Domaine Aubert & Paméla de Villaine",
+        "Domaine Billaud-Simon",
+        "Domaine Comte Georges de Vogüé",
+        "Domaine Cécile Tremblay",
+        "Domaine Robert Groffier",
+        "Domaine Stéphane Magnien",
+        "Domaine de Montille",
+        "Domaine des Comtes Lafon",
+        "Domaine du Comte Liger-Belair",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 20,
+        "Chardonnay": 7
+      },
+      "price_brl": {
+        "min": 501.2,
+        "max": 20192.3,
+        "avg": 5164.17
+      },
+      "location": {
+        "lat": 47.148943,
+        "lng": 4.835428,
+        "source": "derived_from_wines",
+        "confidence": 0.5
+      }
+    },
+    {
+      "sub_region": "Chablis",
+      "wine_count": 24,
+      "producer_count": 4,
+      "producers": [
+        "Domaine Billaud-Simon",
+        "Domaine Jean Paul Droin",
+        "Joseph Drouhin",
+        "Maison de Montille"
+      ],
+      "grapes": {
+        "Chardonnay": 23
+      },
+      "price_brl": {
+        "min": 294.2,
+        "max": 2006.68,
+        "avg": 1099.8
+      },
+      "location": {
+        "lat": 47.815207,
+        "lng": 3.800166,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Volnay",
+      "wine_count": 21,
+      "producer_count": 3,
+      "producers": [
+        "Domaine de Montille",
+        "Domaine des Comtes Lafon",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 21
+      },
+      "price_brl": {
+        "min": 1414.53,
+        "max": 2816.51,
+        "avg": 2315.67
+      },
+      "location": {
+        "lat": 47.001695,
+        "lng": 4.78111,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Gevrey-Chambertin",
+      "wine_count": 20,
+      "producer_count": 6,
+      "producers": [
+        "Domaine Dugat-Py",
+        "Domaine Jean-Marc Millot",
+        "Domaine Robert Groffier",
+        "Domaine Simon Bize",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 19
+      },
+      "price_brl": {
+        "min": 1248.3,
+        "max": 9967.56,
+        "avg": 4219.9
+      },
+      "location": {
+        "lat": 47.226186,
+        "lng": 4.970567,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Bourgogne",
+      "wine_count": 19,
+      "producer_count": 6,
+      "producers": [
+        "Domaine Aubert & Paméla de Villaine",
+        "Domaine Cécile Tremblay",
+        "Domaine de Montille",
+        "Faiveley",
+        "Joseph Drouhin",
+        "Maison de Montille"
+      ],
+      "grapes": {
+        "Chardonnay": 8,
+        "Pinot Noir": 10,
+        "Aligoté": 1
+      },
+      "price_brl": {
+        "min": 269.1,
+        "max": 1097.75,
+        "avg": 576.51
+      },
+      "location": {
+        "lat": 49.35551,
+        "lng": 4.068142,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Chambolle-Musigny",
+      "wine_count": 18,
+      "producer_count": 4,
+      "producers": [
+        "Domaine Comte Georges de Vogüé",
+        "Domaine Robert Groffier",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 18
+      },
+      "price_brl": {
+        "min": 1376.9,
+        "max": 18812.28,
+        "avg": 7330.42
+      },
+      "location": {
+        "lat": 47.186416,
+        "lng": 4.953335,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Beaune",
+      "wine_count": 16,
+      "producer_count": 3,
+      "producers": [
+        "Domaine de Montille",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Chardonnay": 8,
+        "Pinot Noir": 8
+      },
+      "price_brl": {
+        "min": 1122.84,
+        "max": 5582.21,
+        "avg": 1916.94
+      },
+      "location": {
+        "lat": 47.023906,
+        "lng": 4.838043,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Puligny-Montrachet",
+      "wine_count": 13,
+      "producer_count": 4,
+      "producers": [
+        "Domaine Jacques Carillon",
+        "Domaine de Montille",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Chardonnay": 12
+      },
+      "price_brl": {
+        "min": 746.47,
+        "max": 2377.41,
+        "avg": 1547.32
+      },
+      "location": {
+        "lat": 46.94873,
+        "lng": 4.753152,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Chassagne-Montrachet",
+      "wine_count": 11,
+      "producer_count": 4,
+      "producers": [
+        "Domaine Jacques Carillon",
+        "Domaine de Montille",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Chardonnay": 10
+      },
+      "price_brl": {
+        "min": 1238.89,
+        "max": 14113.91,
+        "avg": 4809.85
+      },
+      "location": {
+        "lat": 46.93636,
+        "lng": 4.72736,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Pommard",
+      "wine_count": 11,
+      "producer_count": 4,
+      "producers": [
+        "Domaine Dugat-Py",
+        "Domaine de Montille",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 10
+      },
+      "price_brl": {
+        "min": 1253.94,
+        "max": 3004.7,
+        "avg": 2219.05
+      },
+      "location": {
+        "lat": 47.008792,
+        "lng": 4.796229,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Vosne-Romanée",
+      "wine_count": 11,
+      "producer_count": 2,
+      "producers": [
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 9
+      },
+      "price_brl": {
+        "min": 814.84,
+        "max": 7963.39,
+        "avg": 4269.87
+      },
+      "location": {
+        "lat": 47.15858,
+        "lng": 4.954762,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Mâcon",
+      "wine_count": 10,
+      "producer_count": 2,
+      "producers": [
+        "Joseph Drouhin",
+        "Les Héritiers du Comte Lafon"
+      ],
+      "grapes": {
+        "Chardonnay": 5
+      },
+      "price_brl": {
+        "min": 375.74,
+        "max": 595.29,
+        "avg": 501.97
+      },
+      "location": {
+        "lat": 46.303668,
+        "lng": 4.832227,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Côte De Beaune",
+      "wine_count": 9,
+      "producer_count": 5,
+      "producers": [
+        "Domaine Bonneau du Martray",
+        "Domaine de Montille",
+        "Domaine des Comtes Lafon",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Chardonnay": 5,
+        "Pinot Noir": 4
+      },
+      "price_brl": {
+        "min": 689.39,
+        "max": 2508.51,
+        "avg": 1428.69
+      },
+      "location": {
+        "lat": 47.022711,
+        "lng": 4.845323,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Monthelie",
+      "wine_count": 9,
+      "producer_count": 5,
+      "producers": [
+        "Château de Puligny-Montrachet",
+        "Domaine Dugat-Py",
+        "Domaine de Montille",
+        "Domaine des Comtes Lafon",
+        "Faiveley"
+      ],
+      "grapes": {
+        "Pinot Noir": 7
+      },
+      "price_brl": {
+        "min": 686.88,
+        "max": 1624.67,
+        "avg": 1087.16
+      },
+      "location": {
+        "lat": 46.992872,
+        "lng": 4.765808,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Nuits-Saint-Georges",
+      "wine_count": 9,
+      "producer_count": 4,
+      "producers": [
+        "Domaine Jean-Marc Millot",
+        "Domaine de Montille",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 9
+      },
+      "price_brl": {
+        "min": 626.66,
+        "max": 2355.46,
+        "avg": 1548.77
+      },
+      "location": {
+        "lat": 47.13676,
+        "lng": 4.948906,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Savigny-les-Beaune",
+      "wine_count": 8,
+      "producer_count": 3,
+      "producers": [
+        "Domaine Jean-Marc Millot",
+        "Domaine Simon Bize",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 7,
+        "Chardonnay": 1
+      },
+      "price_brl": {
+        "min": 871.3,
+        "max": 1536.22,
+        "avg": 1140.01
+      },
+      "location": {
+        "lat": 47.062861,
+        "lng": 4.818553,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Aloxe-Corton",
+      "wine_count": 6,
+      "producer_count": 3,
+      "producers": [
+        "Domaine Simon Bize",
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 4,
+        "Chardonnay": 2
+      },
+      "price_brl": {
+        "min": 1003.03,
+        "max": 5017.65,
+        "avg": 3739.87
+      },
+      "location": {
+        "lat": 47.065347,
+        "lng": 4.859633,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Meursault",
+      "wine_count": 6,
+      "producer_count": 2,
+      "producers": [
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Chardonnay": 6
+      },
+      "price_brl": {
+        "min": 1504.86,
+        "max": 3386.71,
+        "avg": 2237.42
+      },
+      "location": {
+        "lat": 46.97838,
+        "lng": 4.769404,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Mercurey",
+      "wine_count": 5,
+      "producer_count": 1,
+      "producers": [
+        "Faiveley"
+      ],
+      "grapes": {
+        "Chardonnay": 1,
+        "Pinot Noir": 4
+      },
+      "price_brl": {
+        "min": 599.06,
+        "max": 1379.4,
+        "avg": 874.82
+      },
+      "location": {
+        "lat": 46.839658,
+        "lng": 4.718927,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Rully",
+      "wine_count": 5,
+      "producer_count": 2,
+      "producers": [
+        "Deux Montille",
+        "Domaine Aubert & Paméla de Villaine"
+      ],
+      "grapes": {
+        "Chardonnay": 4
+      },
+      "price_brl": {
+        "min": 689.39,
+        "max": 1439.62,
+        "avg": 1227.35
+      },
+      "location": {
+        "lat": 46.875806,
+        "lng": 4.743542,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Vougeot",
+      "wine_count": 5,
+      "producer_count": 2,
+      "producers": [
+        "Faiveley",
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 5
+      },
+      "price_brl": {
+        "min": 5012.01,
+        "max": 5770.39,
+        "avg": 5392.39
+      },
+      "location": {
+        "lat": 47.177235,
+        "lng": 4.964315,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Bouzeron",
+      "wine_count": 2,
+      "producer_count": 1,
+      "producers": [
+        "Domaine Aubert & Paméla de Villaine"
+      ],
+      "grapes": {
+        "Aligoté": 2
+      },
+      "price_brl": {
+        "min": 686.88,
+        "max": 686.88,
+        "avg": 686.88
+      },
+      "location": {
+        "lat": 46.889767,
+        "lng": 4.726572,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Côte Chalonnaise",
+      "wine_count": 2,
+      "producer_count": 1,
+      "producers": [
+        "Domaine Aubert & Paméla de Villaine"
+      ],
+      "grapes": {
+        "Pinot Noir": 2
+      },
+      "price_brl": {
+        "min": 875.07,
+        "max": 1228.85,
+        "avg": 1051.96
+      },
+      "location": {
+        "lat": 46.694577,
+        "lng": 4.685731,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Marsannay",
+      "wine_count": 2,
+      "producer_count": 1,
+      "producers": [
+        "Faiveley"
+      ],
+      "grapes": {
+        "Pinot Noir": 2
+      },
+      "price_brl": {
+        "min": 812.34,
+        "max": 940.3,
+        "avg": 876.32
+      },
+      "location": {
+        "lat": 47.270544,
+        "lng": 4.988422,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Montagny",
+      "wine_count": 2,
+      "producer_count": 1,
+      "producers": [
+        "Maison de Montille"
+      ],
+      "grapes": {},
+      "price_brl": {
+        "min": 789.75,
+        "max": 789.75,
+        "avg": 789.75
+      },
+      "location": {
+        "lat": 46.797909,
+        "lng": 4.973747,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Pouilly-Fuissé",
+      "wine_count": 2,
+      "producer_count": 2,
+      "producers": [
+        "Joseph Drouhin",
+        "Maison de Montille"
+      ],
+      "grapes": {
+        "Chardonnay": 2
+      },
+      "price_brl": {
+        "min": 749.61,
+        "max": 994.25,
+        "avg": 871.93
+      },
+      "location": {
+        "lat": 46.276452,
+        "lng": 4.785808,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Saint-Romain",
+      "wine_count": 2,
+      "producer_count": 2,
+      "producers": [
+        "Deux Montille",
+        "Maison de Montille"
+      ],
+      "grapes": {
+        "Chardonnay": 1
+      },
+      "price_brl": {
+        "min": 721.38,
+        "max": 852.48,
+        "avg": 786.93
+      },
+      "location": {
+        "lat": 46.998239,
+        "lng": 4.708385,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Saint-Véran",
+      "wine_count": 2,
+      "producer_count": 2,
+      "producers": [
+        "Joseph Drouhin",
+        "Les Héritiers du Comte Lafon"
+      ],
+      "grapes": {
+        "Chardonnay": 2
+      },
+      "price_brl": {
+        "min": 558.28,
+        "max": 674.34,
+        "avg": 616.31
+      },
+      "location": {
+        "lat": 46.916211,
+        "lng": 4.786921,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Viré-Clessé",
+      "wine_count": 2,
+      "producer_count": 1,
+      "producers": [
+        "Les Héritiers du Comte Lafon"
+      ],
+      "grapes": {
+        "Chardonnay": 2
+      },
+      "price_brl": {
+        "min": 674.34,
+        "max": 1128.48,
+        "avg": 901.41
+      },
+      "location": {
+        "lat": 46.449378,
+        "lng": 4.843668,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Auxey-Duresses",
+      "wine_count": 1,
+      "producer_count": 1,
+      "producers": [
+        "Deux Montille"
+      ],
+      "grapes": {
+        "Chardonnay": 1
+      },
+      "price_brl": {
+        "min": 714.48,
+        "max": 714.48,
+        "avg": 714.48
+      },
+      "location": {
+        "lat": 46.986224,
+        "lng": 4.746792,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Chorey-lès-Beaune",
+      "wine_count": 1,
+      "producer_count": 1,
+      "producers": [
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Pinot Noir": 1
+      },
+      "price_brl": {
+        "min": 777.21,
+        "max": 777.21,
+        "avg": 777.21
+      },
+      "location": {
+        "lat": 47.047875,
+        "lng": 4.866617,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Ladoix-Serrigny",
+      "wine_count": 1,
+      "producer_count": 1,
+      "producers": [
+        "Faiveley"
+      ],
+      "grapes": {
+        "Chardonnay": 1
+      },
+      "price_brl": {
+        "min": 814.84,
+        "max": 814.84,
+        "avg": 814.84
+      },
+      "location": {
+        "lat": 47.066866,
+        "lng": 4.887259,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Pouilly-Vinzelles",
+      "wine_count": 1,
+      "producer_count": 1,
+      "producers": [
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Chardonnay": 1
+      },
+      "price_brl": {
+        "min": 498.7,
+        "max": 498.7,
+        "avg": 498.7
+      },
+      "location": {
+        "lat": 46.27891,
+        "lng": 4.782564,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Saint-Aubin",
+      "wine_count": 1,
+      "producer_count": 1,
+      "producers": [
+        "Domaine de Montille"
+      ],
+      "grapes": {
+        "Chardonnay": 1
+      },
+      "price_brl": {
+        "min": 1251.44,
+        "max": 1251.44,
+        "avg": 1251.44
+      },
+      "location": {
+        "lat": 46.950098,
+        "lng": 4.708875,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    },
+    {
+      "sub_region": "Santenay",
+      "wine_count": 1,
+      "producer_count": 1,
+      "producers": [
+        "Joseph Drouhin"
+      ],
+      "grapes": {
+        "Gamay": 1
+      },
+      "price_brl": {
+        "min": 814.84,
+        "max": 814.84,
+        "avg": 814.84
+      },
+      "location": {
+        "lat": 46.911507,
+        "lng": 4.69963,
+        "source": "sub_region_geocode",
+        "confidence": 0.7
+      }
+    }
+  ]
+}

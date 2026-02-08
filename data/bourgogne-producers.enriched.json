@@ -1,0 +1,570 @@
+{
+  "generated_at_unix": 1770575782,
+  "count": 21,
+  "items": [
+    {
+      "producer": "Joseph Drouhin",
+      "wine_count": 67,
+      "primary_sub_region": "Vosne-Romanée",
+      "sub_regions": {
+        "Vosne-Romanée": 8,
+        "Volnay": 3,
+        "Vougeot": 4,
+        "Nuits-Saint-Georges": 1,
+        "Pommard": 1,
+        "Pouilly-Vinzelles": 1,
+        "Savigny-les-Beaune": 1,
+        "Puligny-Montrachet": 3,
+        "Côte De Beaune": 4,
+        "Beaune": 5,
+        "Chambolle-Musigny": 4,
+        "Meursault": 4,
+        "Aloxe-Corton": 1,
+        "Chorey-lès-Beaune": 1,
+        "Santenay": 1,
+        "Gevrey-Chambertin": 3,
+        "Bourgogne": 5,
+        "Mâcon": 1,
+        "Pouilly-Fuissé": 1,
+        "Chablis": 6,
+        "Chassagne-Montrachet": 4,
+        "Côte De Nuits": 2,
+        "Saint-Véran": 1
+      },
+      "grapes": {
+        "Pinot Noir": 35,
+        "Chardonnay": 27,
+        "Gamay": 1,
+        "Aligoté": 1
+      },
+      "price_brl": {
+        "min": 269.1,
+        "max": 15864.04,
+        "avg": 2946.93
+      },
+      "location": {
+        "lat": 47.02327777777778,
+        "lng": 4.836222222222222,
+        "display_name": "Maison Joseph Drouhin (winery)",
+        "source": "producer_wikidata",
+        "confidence": 0.74
+      }
+    },
+    {
+      "producer": "Domaine de Montille",
+      "wine_count": 50,
+      "primary_sub_region": "Volnay",
+      "sub_regions": {
+        "Volnay": 15,
+        "Pommard": 7,
+        "Beaune": 10,
+        "Bourgogne": 3,
+        "Monthelie": 2,
+        "Puligny-Montrachet": 5,
+        "Nuits-Saint-Georges": 1,
+        "Chassagne-Montrachet": 2,
+        "Saint-Aubin": 1,
+        "Côte De Beaune": 2
+      },
+      "grapes": {
+        "Pinot Noir": 32,
+        "Chardonnay": 17
+      },
+      "price_brl": {
+        "min": 626.66,
+        "max": 6116.03,
+        "avg": 1844.95
+      },
+      "location": {
+        "lat": 47.0016955,
+        "lng": 4.7811102,
+        "display_name": "Volnay, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Faiveley",
+      "wine_count": 47,
+      "primary_sub_region": "Nuits-Saint-Georges",
+      "sub_regions": {
+        "Aloxe-Corton": 4,
+        "Pommard": 2,
+        "Gevrey-Chambertin": 5,
+        "Vosne-Romanée": 3,
+        "Nuits-Saint-Georges": 6,
+        "Monthelie": 1,
+        "Chambolle-Musigny": 2,
+        "Bourgogne": 4,
+        "Mercurey": 5,
+        "Vougeot": 1,
+        "Marsannay": 2,
+        "Meursault": 2,
+        "Chassagne-Montrachet": 4,
+        "Puligny-Montrachet": 2,
+        "Beaune": 1,
+        "Ladoix-Serrigny": 1,
+        "Côte De Beaune": 1
+      },
+      "grapes": {
+        "Pinot Noir": 31,
+        "Chardonnay": 14
+      },
+      "price_brl": {
+        "min": 338.11,
+        "max": 8336.62,
+        "avg": 2287.48
+      },
+      "location": {
+        "lat": 47.1350103,
+        "lng": 4.9684021,
+        "display_name": "Rue Georges Faiveley, Zone d'Activités Économiques du Pré Saint-Denis, Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+        "source": "producer_geocode",
+        "confidence": 0.607
+      }
+    },
+    {
+      "producer": "Domaine Comte Georges de Vogüé",
+      "wine_count": 18,
+      "primary_sub_region": "Chambolle-Musigny",
+      "sub_regions": {
+        "Chambolle-Musigny": 9,
+        "Côte De Nuits": 7
+      },
+      "grapes": {
+        "Pinot Noir": 18
+      },
+      "price_brl": {
+        "min": 4761.09,
+        "max": 17557.71,
+        "avg": 10295.14
+      },
+      "location": {
+        "lat": 47.1864158,
+        "lng": 4.9533347,
+        "display_name": "Chambolle-Musigny, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21220, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Jean-Marc Millot",
+      "wine_count": 12,
+      "primary_sub_region": "Côte De Nuits",
+      "sub_regions": {
+        "Côte De Nuits": 9,
+        "Savigny-les-Beaune": 1,
+        "Nuits-Saint-Georges": 1,
+        "Gevrey-Chambertin": 1
+      },
+      "grapes": {
+        "Pinot Noir": 9,
+        "Aligoté": 2
+      },
+      "price_brl": {
+        "min": 563.93,
+        "max": 1436.48,
+        "avg": 896.6
+      },
+      "location": {
+        "lat": 47.1314466,
+        "lng": 4.9714221,
+        "display_name": "France Boisson, D 8, Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Les Héritiers du Comte Lafon",
+      "wine_count": 12,
+      "primary_sub_region": "Mâcon",
+      "sub_regions": {
+        "Mâcon": 9,
+        "Viré-Clessé": 2,
+        "Saint-Véran": 1
+      },
+      "grapes": {
+        "Chardonnay": 7
+      },
+      "price_brl": {
+        "min": 395.95,
+        "max": 1128.48,
+        "avg": 593.42
+      },
+      "location": {
+        "lat": 46.3036683,
+        "lng": 4.8322266,
+        "display_name": "Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71000, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Dugat-Py",
+      "wine_count": 11,
+      "primary_sub_region": "Gevrey-Chambertin",
+      "sub_regions": {
+        "Gevrey-Chambertin": 9,
+        "Pommard": 1,
+        "Monthelie": 1
+      },
+      "grapes": {
+        "Pinot Noir": 10
+      },
+      "price_brl": {
+        "min": 1624.67,
+        "max": 9967.56,
+        "avg": 4880.85
+      },
+      "location": {
+        "lat": 47.2261857,
+        "lng": 4.9705666,
+        "display_name": "Gevrey-Chambertin, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21220, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Aubert & Paméla de Villaine",
+      "wine_count": 10,
+      "primary_sub_region": "Rully",
+      "sub_regions": {
+        "Rully": 4,
+        "Bouzeron": 2,
+        "Côte Chalonnaise": 2,
+        "Bourgogne": 1
+      },
+      "grapes": {
+        "Chardonnay": 4,
+        "Aligoté": 2,
+        "Pinot Noir": 3
+      },
+      "price_brl": {
+        "min": 686.88,
+        "max": 1881.23,
+        "avg": 1190.4
+      },
+      "location": {
+        "lat": 46.8758062,
+        "lng": 4.7435424,
+        "display_name": "Rully, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71150, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Cécile Tremblay",
+      "wine_count": 10,
+      "primary_sub_region": "Côte De Nuits",
+      "sub_regions": {
+        "Bourgogne": 2,
+        "Côte De Nuits": 4
+      },
+      "grapes": {
+        "Pinot Noir": 10
+      },
+      "price_brl": {
+        "min": null,
+        "max": null,
+        "avg": null
+      },
+      "location": {
+        "lat": 47.1314466,
+        "lng": 4.9714221,
+        "display_name": "France Boisson, D 8, Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Jean Paul Droin",
+      "wine_count": 10,
+      "primary_sub_region": "Chablis",
+      "sub_regions": {
+        "Chablis": 10
+      },
+      "grapes": {
+        "Chardonnay": 10
+      },
+      "price_brl": {
+        "min": 626.66,
+        "max": 1881.23,
+        "avg": 1275.4
+      },
+      "location": {
+        "lat": 47.8152073,
+        "lng": 3.8001657,
+        "display_name": "Chablis, Auxerre, Yonne, Bourgogne-Franche-Comté, France métropolitaine, 89800, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine des Comtes Lafon",
+      "wine_count": 10,
+      "primary_sub_region": "Monthelie",
+      "sub_regions": {
+        "Volnay": 3,
+        "Monthelie": 4,
+        "Côte De Beaune": 1
+      },
+      "grapes": {
+        "Pinot Noir": 7,
+        "Chardonnay": 3
+      },
+      "price_brl": {
+        "min": 1188.71,
+        "max": 2633.97,
+        "avg": 1779.61
+      },
+      "location": {
+        "lat": 46.9928724,
+        "lng": 4.7658083,
+        "display_name": "Monthelie, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Billaud-Simon",
+      "wine_count": 9,
+      "primary_sub_region": "Chablis",
+      "sub_regions": {
+        "Chablis": 7
+      },
+      "grapes": {
+        "Chardonnay": 8
+      },
+      "price_brl": {
+        "min": 388.29,
+        "max": 1868.68,
+        "avg": 1015.58
+      },
+      "location": {
+        "lat": 47.8152073,
+        "lng": 3.8001657,
+        "display_name": "Chablis, Auxerre, Yonne, Bourgogne-Franche-Comté, France métropolitaine, 89800, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Robert Groffier",
+      "wine_count": 9,
+      "primary_sub_region": "Côte De Nuits",
+      "sub_regions": {
+        "Côte De Nuits": 4,
+        "Gevrey-Chambertin": 1,
+        "Chambolle-Musigny": 3
+      },
+      "grapes": {
+        "Pinot Noir": 9
+      },
+      "price_brl": {
+        "min": 984.21,
+        "max": 20192.3,
+        "avg": 8489.82
+      },
+      "location": {
+        "lat": 47.1314466,
+        "lng": 4.9714221,
+        "display_name": "France Boisson, D 8, Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Stéphane Magnien",
+      "wine_count": 9,
+      "primary_sub_region": "Côte De Nuits",
+      "sub_regions": {
+        "Côte De Nuits": 1
+      },
+      "grapes": {
+        "Pinot Noir": 9
+      },
+      "price_brl": {
+        "min": 501.2,
+        "max": 4829.47,
+        "avg": 2417.28
+      },
+      "location": {
+        "lat": 47.1314466,
+        "lng": 4.9714221,
+        "display_name": "France Boisson, D 8, Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Maison de Montille",
+      "wine_count": 9,
+      "primary_sub_region": "Bourgogne",
+      "sub_regions": {
+        "Bourgogne": 4,
+        "Montagny": 2,
+        "Saint-Romain": 1,
+        "Pouilly-Fuissé": 1,
+        "Chablis": 1
+      },
+      "grapes": {
+        "Chardonnay": 4,
+        "Pinot Noir": 2
+      },
+      "price_brl": {
+        "min": 595.29,
+        "max": 1253.94,
+        "avg": 785.43
+      },
+      "location": {
+        "lat": 49.3555104,
+        "lng": 4.0681417,
+        "display_name": "Bourgogne, Bourgogne-Fresne, Reims, Marne, Grand Est, France métropolitaine, 51110, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Simon Bize",
+      "wine_count": 8,
+      "primary_sub_region": "Savigny-les-Beaune",
+      "sub_regions": {
+        "Aloxe-Corton": 1,
+        "Savigny-les-Beaune": 6,
+        "Gevrey-Chambertin": 1
+      },
+      "grapes": {
+        "Pinot Noir": 7,
+        "Chardonnay": 1
+      },
+      "price_brl": {
+        "min": 871.3,
+        "max": 4384.72,
+        "avg": 1539.91
+      },
+      "location": {
+        "lat": 47.0628612,
+        "lng": 4.8185532,
+        "display_name": "Savigny-lès-Beaune, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21420, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine du Comte Liger-Belair",
+      "wine_count": 7,
+      "primary_sub_region": "Côte De Nuits",
+      "sub_regions": {
+        "Côte De Nuits": 5
+      },
+      "grapes": {
+        "Pinot Noir": 7
+      },
+      "price_brl": {
+        "min": null,
+        "max": null,
+        "avg": null
+      },
+      "location": {
+        "lat": 47.1314466,
+        "lng": 4.9714221,
+        "display_name": "France Boisson, D 8, Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Domaine Jacques Carillon",
+      "wine_count": 4,
+      "primary_sub_region": "Puligny-Montrachet",
+      "sub_regions": {
+        "Puligny-Montrachet": 3,
+        "Chassagne-Montrachet": 1
+      },
+      "grapes": {
+        "Chardonnay": 4
+      },
+      "price_brl": {
+        "min": 1185.57,
+        "max": 1351.8,
+        "avg": 1240.46
+      },
+      "location": {
+        "lat": 46.9487302,
+        "lng": 4.7531515,
+        "display_name": "Puligny-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Deux Montille",
+      "wine_count": 3,
+      "primary_sub_region": "Auxey-Duresses",
+      "sub_regions": {
+        "Auxey-Duresses": 1,
+        "Rully": 1,
+        "Saint-Romain": 1
+      },
+      "grapes": {
+        "Chardonnay": 3
+      },
+      "price_brl": {
+        "min": 689.39,
+        "max": 721.38,
+        "avg": 708.42
+      },
+      "location": {
+        "lat": 46.9862244,
+        "lng": 4.7467921,
+        "display_name": "Auxey-Duresses, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    },
+    {
+      "producer": "Château de Puligny-Montrachet",
+      "wine_count": 1,
+      "primary_sub_region": "Monthelie",
+      "sub_regions": {
+        "Monthelie": 1
+      },
+      "grapes": {},
+      "price_brl": {
+        "min": 686.88,
+        "max": 686.88,
+        "avg": 686.88
+      },
+      "location": {
+        "lat": 46.9463892,
+        "lng": 4.7525258,
+        "display_name": "Rue du Château, Puligny-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+        "source": "producer_geocode",
+        "confidence": 0.75
+      }
+    },
+    {
+      "producer": "Domaine Bonneau du Martray",
+      "wine_count": 1,
+      "primary_sub_region": "Côte De Beaune",
+      "sub_regions": {
+        "Côte De Beaune": 1
+      },
+      "grapes": {
+        "Chardonnay": 1
+      },
+      "price_brl": {
+        "min": null,
+        "max": null,
+        "avg": null
+      },
+      "location": {
+        "lat": 47.0227115,
+        "lng": 4.8453231,
+        "display_name": "Église réformée de France, Rue Faubourg Saint-Jean, Résidence du Lac, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+        "source": "producer_sub_region_fallback",
+        "confidence": 0.55
+      }
+    }
+  ]
+}

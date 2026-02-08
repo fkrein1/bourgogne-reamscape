@@ -1,0 +1,3211 @@
+{
+  "bourgogne, bourgogne, france": [
+    {
+      "place_id": 109364579,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 417622,
+      "lat": "49.3555104",
+      "lon": "4.0681417",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.5396838467328902,
+      "addresstype": "city_district",
+      "name": "Bourgogne",
+      "display_name": "Bourgogne, Bourgogne-Fresne, Reims, Marne, Grand Est, France métropolitaine, 51110, France",
+      "address": {
+        "city_district": "Bourgogne",
+        "village": "Bourgogne-Fresne",
+        "municipality": "Reims",
+        "county": "Marne",
+        "ISO3166-2-lvl6": "FR-51",
+        "state": "Grand Est",
+        "ISO3166-2-lvl4": "FR-GES",
+        "region": "France métropolitaine",
+        "postcode": "51110",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Bourgogne"
+      },
+      "boundingbox": [
+        "49.3248979",
+        "49.3837977",
+        "4.0411196",
+        "4.0988313"
+      ]
+    },
+    {
+      "place_id": 82299297,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 241645998,
+      "lat": "46.7925849",
+      "lon": "4.8353702",
+      "category": "landuse",
+      "type": "depot",
+      "place_rank": 22,
+      "importance": 0.10673385900663765,
+      "addresstype": "depot",
+      "name": "Transdev Bourgogne-Franche-Comté Sud",
+      "display_name": "Transdev Bourgogne-Franche-Comté Sud, Champ Fleuri, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71100, France",
+      "address": {
+        "depot": "Transdev Bourgogne-Franche-Comté Sud",
+        "neighbourhood": "Champ Fleuri",
+        "town": "Chalon-sur-Saône",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71100",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Transdev Bourgogne-Franche-Comté Sud"
+      },
+      "boundingbox": [
+        "46.7911984",
+        "46.7939578",
+        "4.8335242",
+        "4.8366078"
+      ]
+    },
+    {
+      "place_id": 82234570,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2301912557,
+      "lat": "46.7904879",
+      "lon": "4.8380536",
+      "category": "place",
+      "type": "neighbourhood",
+      "place_rank": 20,
+      "importance": 0.13340052567330432,
+      "addresstype": "neighbourhood",
+      "name": "Bourgogne",
+      "display_name": "Bourgogne, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71100, France",
+      "address": {
+        "neighbourhood": "Bourgogne",
+        "town": "Chalon-sur-Saône",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71100",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Bourgogne"
+      },
+      "boundingbox": [
+        "46.7804879",
+        "46.8004879",
+        "4.8280536",
+        "4.8480536"
+      ]
+    },
+    {
+      "place_id": 82116320,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4269040718,
+      "lat": "46.3336277",
+      "lon": "4.6212685",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13339701152056152,
+      "addresstype": "hamlet",
+      "name": "Bourgogne",
+      "display_name": "Bourgogne, Saint-Point, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71520, France",
+      "address": {
+        "hamlet": "Bourgogne",
+        "village": "Saint-Point",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71520",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Bourgogne"
+      },
+      "boundingbox": [
+        "46.3136277",
+        "46.3536277",
+        "4.6012685",
+        "4.6412685"
+      ]
+    }
+  ],
+  "aloxe-corton, bourgogne, france": [
+    {
+      "place_id": 85241780,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 131596,
+      "lat": "47.0653471",
+      "lon": "4.8596328",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5834589887141092,
+      "addresstype": "village",
+      "name": "Aloxe-Corton",
+      "display_name": "Aloxe-Corton, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21420, France",
+      "address": {
+        "village": "Aloxe-Corton",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21420",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Aloxe-Corton"
+      },
+      "boundingbox": [
+        "47.0559150",
+        "47.0799807",
+        "4.8496702",
+        "4.8759073"
+      ]
+    }
+  ],
+  "auxey-duresses, bourgogne, france": [
+    {
+      "place_id": 81261747,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 129336,
+      "lat": "46.9862244",
+      "lon": "4.7467921",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5831468993359953,
+      "addresstype": "village",
+      "name": "Auxey-Duresses",
+      "display_name": "Auxey-Duresses, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "village": "Auxey-Duresses",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Auxey-Duresses"
+      },
+      "boundingbox": [
+        "46.9670497",
+        "47.0107957",
+        "4.6963240",
+        "4.7635416"
+      ]
+    }
+  ],
+  "beaune, bourgogne, france": [
+    {
+      "place_id": 85418512,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 74091,
+      "lat": "47.0239064",
+      "lon": "4.8380426",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.6050273633292791,
+      "addresstype": "town",
+      "name": "Beaune",
+      "display_name": "Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "town": "Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Beaune",
+        "name:br": "Béâne",
+        "name:fr": "Beaune",
+        "name:ja": "ボーヌ",
+        "name:fr-x-brg": "Béâne",
+        "name:hy": "Բոն",
+        "name:ko": "본",
+        "name:ru": "Бон",
+        "name:uk": "Бон",
+        "name:zh": "博讷",
+        "old_name:it": "Beona;Belna"
+      },
+      "boundingbox": [
+        "46.9955925",
+        "47.0588586",
+        "4.7870356",
+        "4.8973109"
+      ]
+    },
+    {
+      "place_id": 85242364,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1684815,
+      "lat": "47.1109409",
+      "lon": "4.8058530",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 14,
+      "importance": 0.5455295540727757,
+      "addresstype": "municipality",
+      "name": "Beaune",
+      "display_name": "Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, France",
+      "address": {
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Beaune",
+        "name:fr": "Beaune",
+        "name:ko": "본"
+      },
+      "boundingbox": [
+        "46.8998587",
+        "47.3220788",
+        "4.1068786",
+        "5.4010083"
+      ]
+    }
+  ],
+  "bouzeron, bourgogne, france": [
+    {
+      "place_id": 82223984,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 2741724,
+      "lat": "46.8897667",
+      "lon": "4.7265722",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5676826042563843,
+      "addresstype": "village",
+      "name": "Bouzeron",
+      "display_name": "Bouzeron, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71150, France",
+      "address": {
+        "village": "Bouzeron",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71150",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Bouzeron"
+      },
+      "boundingbox": [
+        "46.8767148",
+        "46.9049330",
+        "4.7119690",
+        "4.7431270"
+      ]
+    }
+  ],
+  "chablis, bourgogne, france": [
+    {
+      "place_id": 85500986,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 303245,
+      "lat": "47.8152073",
+      "lon": "3.8001657",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5543735340785105,
+      "addresstype": "village",
+      "name": "Chablis",
+      "display_name": "Chablis, Auxerre, Yonne, Bourgogne-Franche-Comté, France métropolitaine, 89800, France",
+      "address": {
+        "village": "Chablis",
+        "municipality": "Auxerre",
+        "county": "Yonne",
+        "ISO3166-2-lvl6": "FR-89",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "89800",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Chablis",
+        "name:fr": "Chablis",
+        "name:el": "Σαμπλί",
+        "name:ja": "シャブリ",
+        "name:ko": "샤블리",
+        "name:ru": "Шабли",
+        "name:uk": "Шаблі",
+        "name:zh": "沙布利"
+      },
+      "boundingbox": [
+        "47.7626178",
+        "47.8491468",
+        "3.7385077",
+        "3.8477328"
+      ]
+    },
+    {
+      "place_id": 403455337,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 18934089,
+      "lat": "47.7971473",
+      "lon": "3.7812432",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.5543735340785105,
+      "addresstype": "city_district",
+      "name": "Chablis",
+      "display_name": "Chablis, Auxerre, Yonne, Bourgogne-Franche-Comté, France métropolitaine, 89800, France",
+      "address": {
+        "city_district": "Chablis",
+        "village": "Chablis",
+        "municipality": "Auxerre",
+        "county": "Yonne",
+        "ISO3166-2-lvl6": "FR-89",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "89800",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Chablis"
+      },
+      "boundingbox": [
+        "47.7626178",
+        "47.8315640",
+        "3.7437328",
+        "3.8242685"
+      ]
+    }
+  ],
+  "chambolle-musigny, bourgogne, france": [
+    {
+      "place_id": 85327039,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 134034,
+      "lat": "47.1864158",
+      "lon": "4.9533347",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5840786729044158,
+      "addresstype": "village",
+      "name": "Chambolle-Musigny",
+      "display_name": "Chambolle-Musigny, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21220, France",
+      "address": {
+        "village": "Chambolle-Musigny",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21220",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Chambolle-Musigny",
+        "name:fr": "Chambolle-Musigny",
+        "name:ja": "シャンボール＝ミュジニー"
+      },
+      "boundingbox": [
+        "47.1735891",
+        "47.2009384",
+        "4.9208399",
+        "4.9802226"
+      ]
+    }
+  ],
+  "chassagne-montrachet, bourgogne, france": [
+    {
+      "place_id": 89227508,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 130323,
+      "lat": "46.9363600",
+      "lon": "4.7273600",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5834437998298322,
+      "addresstype": "village",
+      "name": "Chassagne-Montrachet",
+      "display_name": "Chassagne-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "village": "Chassagne-Montrachet",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Chassagne-Montrachet"
+      },
+      "boundingbox": [
+        "46.9193950",
+        "46.9459444",
+        "4.7064303",
+        "4.7496678"
+      ]
+    }
+  ],
+  "chorey-lès-beaune, bourgogne, france": [
+    {
+      "place_id": 85280949,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 131442,
+      "lat": "47.0478752",
+      "lon": "4.8666174",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.582710494259655,
+      "addresstype": "village",
+      "name": "Chorey-les-Beaune",
+      "display_name": "Chorey-les-Beaune, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "village": "Chorey-les-Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Chorey-les-Beaune"
+      },
+      "boundingbox": [
+        "47.0404987",
+        "47.0634147",
+        "4.8478616",
+        "4.8954927"
+      ]
+    }
+  ],
+  "côte chalonnaise, bourgogne, france": [
+    {
+      "place_id": 426042623,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 3390706,
+      "lat": "46.6945771",
+      "lon": "4.6857306",
+      "category": "boundary",
+      "type": "local_authority",
+      "place_rank": 25,
+      "importance": 0.32547572759041243,
+      "addresstype": "local_authority",
+      "name": "Communauté de communes Sud Côte Chalonnaise",
+      "display_name": "Communauté de communes Sud Côte Chalonnaise, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71390, France",
+      "address": {
+        "local_authority": "Communauté de communes Sud Côte Chalonnaise",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71390",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Communauté de communes Sud Côte Chalonnaise",
+        "name:fr": "Communauté de communes Sud Côte Chalonnaise",
+        "short_name": "CCSCC"
+      },
+      "boundingbox": [
+        "46.5840250",
+        "46.8050070",
+        "4.4920021",
+        "4.8141472"
+      ]
+    },
+    {
+      "place_id": 82136830,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 200039157,
+      "lat": "46.7801510",
+      "lon": "4.7440767",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339724956130309,
+      "addresstype": "road",
+      "name": "Rue de la Côte Chalonnaise",
+      "display_name": "Rue de la Côte Chalonnaise, Clos Henri IV, La Ronge, Givry, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "address": {
+        "road": "Rue de la Côte Chalonnaise",
+        "neighbourhood": "Clos Henri IV",
+        "hamlet": "La Ronge",
+        "village": "Givry",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue de la Côte Chalonnaise"
+      },
+      "boundingbox": [
+        "46.7800274",
+        "46.7803523",
+        "4.7433355",
+        "4.7448024"
+      ]
+    },
+    {
+      "place_id": 82411144,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 208562768,
+      "lat": "46.7810926",
+      "lon": "4.7462480",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339724956130309,
+      "addresstype": "road",
+      "name": "Rue de la Côte Chalonnaise",
+      "display_name": "Rue de la Côte Chalonnaise, Clos Henri IV, La Ronge, Givry, Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "address": {
+        "road": "Rue de la Côte Chalonnaise",
+        "neighbourhood": "Clos Henri IV",
+        "hamlet": "La Ronge",
+        "village": "Givry",
+        "municipality": "Chalon-sur-Saône",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue de la Côte Chalonnaise"
+      },
+      "boundingbox": [
+        "46.7806078",
+        "46.7815436",
+        "4.7459039",
+        "4.7463648"
+      ]
+    },
+    {
+      "place_id": 82186583,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 40634189,
+      "lat": "46.8161549",
+      "lon": "4.7520910",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05339714274814981,
+      "addresstype": "road",
+      "name": "Rond-Point de la Côte Chalonnaise",
+      "display_name": "Rond-Point de la Côte Chalonnaise, Les Vauxloins, Germolles, Mellecey, Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "address": {
+        "road": "Rond-Point de la Côte Chalonnaise",
+        "hamlet": "Les Vauxloins",
+        "village": "Germolles",
+        "municipality": "Chalon-sur-Saône",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rond-Point de la Côte Chalonnaise"
+      },
+      "boundingbox": [
+        "46.8159453",
+        "46.8163805",
+        "4.7517739",
+        "4.7524096"
+      ]
+    },
+    {
+      "place_id": 82105067,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 150823994,
+      "lat": "46.7687335",
+      "lon": "4.7123786",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339710612649726,
+      "addresstype": "road",
+      "name": "Rue de la Côte Chalonnaise",
+      "display_name": "Rue de la Côte Chalonnaise, Les Granges Money, Charnailles, Jambles, Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "address": {
+        "road": "Rue de la Côte Chalonnaise",
+        "neighbourhood": "Les Granges Money",
+        "hamlet": "Charnailles",
+        "village": "Jambles",
+        "municipality": "Chalon-sur-Saône",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "ref": "D 170",
+        "name": "Rue de la Côte Chalonnaise",
+        "name:fr": "Rue de la Côte Chalonnaise"
+      },
+      "boundingbox": [
+        "46.7687266",
+        "46.7695083",
+        "4.7086021",
+        "4.7161782"
+      ]
+    },
+    {
+      "place_id": 82129302,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 228677307,
+      "lat": "46.7703623",
+      "lon": "4.7049940",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339710460059507,
+      "addresstype": "road",
+      "name": "Rue de la Côte Chalonnaise",
+      "display_name": "Rue de la Côte Chalonnaise, Les Granges Money, La Rivière, Jambles, Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "address": {
+        "road": "Rue de la Côte Chalonnaise",
+        "neighbourhood": "Les Granges Money",
+        "hamlet": "La Rivière",
+        "village": "Jambles",
+        "municipality": "Chalon-sur-Saône",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "ref": "D 170",
+        "name": "Rue de la Côte Chalonnaise",
+        "name:fr": "Rue de la Côte Chalonnaise"
+      },
+      "boundingbox": [
+        "46.7695083",
+        "46.7708411",
+        "4.7014729",
+        "4.7086021"
+      ]
+    },
+    {
+      "place_id": 82100766,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 151080706,
+      "lat": "46.7711538",
+      "lon": "4.6919593",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339710460059507,
+      "addresstype": "road",
+      "name": "Rue de la Côte Chalonnaise",
+      "display_name": "Rue de la Côte Chalonnaise, Brochon, Jambles, Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "address": {
+        "road": "Rue de la Côte Chalonnaise",
+        "hamlet": "Brochon",
+        "village": "Jambles",
+        "municipality": "Chalon-sur-Saône",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "ref": "D 170",
+        "name": "Rue de la Côte Chalonnaise",
+        "name:fr": "Rue de la Côte Chalonnaise"
+      },
+      "boundingbox": [
+        "46.7706328",
+        "46.7720168",
+        "4.6898034",
+        "4.6939275"
+      ]
+    },
+    {
+      "place_id": 82259963,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1184896050,
+      "lat": "46.7711552",
+      "lon": "4.6995930",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339710460059507,
+      "addresstype": "road",
+      "name": "Rue de la Côte Chalonnaise",
+      "display_name": "Rue de la Côte Chalonnaise, Moulin de la Rue, La Rivière, Jambles, Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "address": {
+        "road": "Rue de la Côte Chalonnaise",
+        "neighbourhood": "Moulin de la Rue",
+        "hamlet": "La Rivière",
+        "village": "Jambles",
+        "municipality": "Chalon-sur-Saône",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "ref": "D 170",
+        "name": "Rue de la Côte Chalonnaise",
+        "name:fr": "Rue de la Côte Chalonnaise"
+      },
+      "boundingbox": [
+        "46.7704581",
+        "46.7715729",
+        "4.6976458",
+        "4.7014729"
+      ]
+    }
+  ],
+  "côte de beaune, bourgogne, france": [
+    {
+      "place_id": 85406634,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 117545372,
+      "lat": "47.0227115",
+      "lon": "4.8453231",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 6.753414206144835e-05,
+      "addresstype": "amenity",
+      "name": "Église réformée de France",
+      "display_name": "Église réformée de France, Rue Faubourg Saint-Jean, Résidence du Lac, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "amenity": "Église réformée de France",
+        "road": "Rue Faubourg Saint-Jean",
+        "neighbourhood": "Résidence du Lac",
+        "town": "Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Église réformée de France"
+      },
+      "boundingbox": [
+        "47.0226340",
+        "47.0227880",
+        "4.8452030",
+        "4.8454440"
+      ]
+    },
+    {
+      "place_id": 403130322,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2594406316,
+      "lat": "47.0090778",
+      "lon": "4.8445763",
+      "category": "office",
+      "type": "government",
+      "place_rank": 30,
+      "importance": 6.753414206144835e-05,
+      "addresstype": "office",
+      "name": "France Travail",
+      "display_name": "France Travail, Rue Buffon, ZAC Porte de Beaune, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "office": "France Travail",
+        "road": "Rue Buffon",
+        "industrial": "ZAC Porte de Beaune",
+        "town": "Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "France Travail",
+        "brand": "France Travail",
+        "name:fr": "France Travail"
+      },
+      "boundingbox": [
+        "47.0090278",
+        "47.0091278",
+        "4.8445263",
+        "4.8446263"
+      ]
+    },
+    {
+      "place_id": 85339610,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3684033989,
+      "lat": "47.0214858",
+      "lon": "4.8329317",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 6.753414206144835e-05,
+      "addresstype": "amenity",
+      "name": "Café de France",
+      "display_name": "Café de France, 13, Rue du Faubourg Bretonnière, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "amenity": "Café de France",
+        "house_number": "13",
+        "road": "Rue du Faubourg Bretonnière",
+        "town": "Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Café de France"
+      },
+      "boundingbox": [
+        "47.0214358",
+        "47.0215358",
+        "4.8328817",
+        "4.8329817"
+      ]
+    },
+    {
+      "place_id": 85240515,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1859987860,
+      "lat": "47.0232432",
+      "lon": "4.8481147",
+      "category": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 6.753414206144835e-05,
+      "addresstype": "tourism",
+      "name": "Hôtel de France",
+      "display_name": "Hôtel de France, Place de la Gare, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "tourism": "Hôtel de France",
+        "road": "Place de la Gare",
+        "town": "Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Hôtel de France"
+      },
+      "boundingbox": [
+        "47.0231932",
+        "47.0232932",
+        "4.8480647",
+        "4.8481647"
+      ]
+    },
+    {
+      "place_id": 85249409,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5044234214,
+      "lat": "47.0186709",
+      "lon": "4.8679036",
+      "category": "man_made",
+      "type": "works",
+      "place_rank": 30,
+      "importance": 6.753414206144835e-05,
+      "addresstype": "man_made",
+      "name": "RTP Plastique France",
+      "display_name": "RTP Plastique France, 73, Route de Seurre, Challanges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "man_made": "RTP Plastique France",
+        "house_number": "73",
+        "road": "Route de Seurre",
+        "hamlet": "Challanges",
+        "town": "Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "RTP Plastique France"
+      },
+      "boundingbox": [
+        "47.0186209",
+        "47.0187209",
+        "4.8678536",
+        "4.8679536"
+      ]
+    },
+    {
+      "place_id": 85248761,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 367316605,
+      "lat": "47.1365450",
+      "lon": "4.7180582",
+      "category": "tourism",
+      "type": "guest_house",
+      "place_rank": 30,
+      "importance": 6.520256351563313e-05,
+      "addresstype": "tourism",
+      "name": "Le chèvrefeuille",
+      "display_name": "Le chèvrefeuille, Montée de la Tillote, Aubaine, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21360, France",
+      "address": {
+        "tourism": "Le chèvrefeuille",
+        "road": "Montée de la Tillote",
+        "village": "Aubaine",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21360",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Le chèvrefeuille",
+        "brand": "Gîte de France",
+        "name:fr": "Le chèvrefeuille"
+      },
+      "boundingbox": [
+        "47.1364880",
+        "47.1366010",
+        "4.7179780",
+        "4.7181380"
+      ]
+    },
+    {
+      "place_id": 82508269,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2385399539,
+      "lat": "46.9520199",
+      "lon": "4.6347070",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 6.487144274047483e-05,
+      "addresstype": "amenity",
+      "name": "Café de France",
+      "display_name": "Café de France, Rue de la République, Lieu dit Maraine, Cirey-lès-Nolay, Nolay, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21340, France",
+      "address": {
+        "amenity": "Café de France",
+        "road": "Rue de la République",
+        "hamlet": "Lieu dit Maraine",
+        "village": "Cirey-lès-Nolay",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21340",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Café de France"
+      },
+      "boundingbox": [
+        "46.9519699",
+        "46.9520699",
+        "4.6346570",
+        "4.6347570"
+      ]
+    },
+    {
+      "place_id": 425610332,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 667852468,
+      "lat": "47.0074693",
+      "lon": "4.8581393",
+      "category": "building",
+      "type": "warehouse",
+      "place_rank": 30,
+      "importance": 6.753414206144835e-05,
+      "addresstype": "building",
+      "name": "DPD France",
+      "display_name": "DPD France, Avenue Albert Bichot, Zone d'Aménagement Concerté des Cerisières, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "building": "DPD France",
+        "road": "Avenue Albert Bichot",
+        "industrial": "Zone d'Aménagement Concerté des Cerisières",
+        "town": "Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "DPD France"
+      },
+      "boundingbox": [
+        "47.0065272",
+        "47.0082974",
+        "4.8571590",
+        "4.8591196"
+      ]
+    }
+  ],
+  "côte de nuits, bourgogne, france": [
+    {
+      "place_id": 85243097,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11217854324,
+      "lat": "47.1314466",
+      "lon": "4.9714221",
+      "category": "shop",
+      "type": "beverages",
+      "place_rank": 30,
+      "importance": 6.576562142362124e-05,
+      "addresstype": "shop",
+      "name": "France Boisson",
+      "display_name": "France Boisson, D 8, Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+      "address": {
+        "shop": "France Boisson",
+        "road": "D 8",
+        "village": "Nuits-Saint-Georges",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21700",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "France Boisson",
+        "brand": "France Boisson",
+        "name:fr": "France Boisson"
+      },
+      "boundingbox": [
+        "47.1313966",
+        "47.1314966",
+        "4.9713721",
+        "4.9714721"
+      ]
+    }
+  ],
+  "gevrey-chambertin, bourgogne, france": [
+    {
+      "place_id": 85523817,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 134176,
+      "lat": "47.2261857",
+      "lon": "4.9705666",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5862309479415909,
+      "addresstype": "village",
+      "name": "Gevrey-Chambertin",
+      "display_name": "Gevrey-Chambertin, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21220, France",
+      "address": {
+        "village": "Gevrey-Chambertin",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21220",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Gevrey-Chambertin",
+        "name:fr": "Gevrey-Chambertin",
+        "name:ja": "ジュヴレ・シャンベルタン"
+      },
+      "boundingbox": [
+        "47.2003100",
+        "47.2375494",
+        "4.9229934",
+        "5.0500438"
+      ]
+    }
+  ],
+  "ladoix-serrigny, bourgogne, france": [
+    {
+      "place_id": 92703418,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 131429,
+      "lat": "47.0668663",
+      "lon": "4.8872591",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5833982117018676,
+      "addresstype": "village",
+      "name": "Ladoix-Serrigny",
+      "display_name": "Ladoix-Serrigny, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21550, France",
+      "address": {
+        "village": "Ladoix-Serrigny",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21550",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Ladoix-Serrigny"
+      },
+      "boundingbox": [
+        "47.0407855",
+        "47.0936736",
+        "4.8664984",
+        "4.9644701"
+      ]
+    }
+  ],
+  "marsannay, bourgogne, france": [
+    {
+      "place_id": 85222108,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 134197,
+      "lat": "47.2705441",
+      "lon": "4.9884218",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5843862963247459,
+      "addresstype": "village",
+      "name": "Marsannay-la-Côte",
+      "display_name": "Marsannay-la-Côte, Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21160, France",
+      "address": {
+        "village": "Marsannay-la-Côte",
+        "municipality": "Dijon",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21160",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Marsannay-la-Côte",
+        "name:fr": "Marsannay-la-Côte",
+        "name:ja": "マルサネ＝ラ＝コート"
+      },
+      "boundingbox": [
+        "47.2632421",
+        "47.2973901",
+        "4.9386234",
+        "5.0366577"
+      ]
+    },
+    {
+      "place_id": 85323399,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 151136,
+      "lat": "47.4389923",
+      "lon": "5.0966127",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5813362070907097,
+      "addresstype": "village",
+      "name": "Marsannay-le-Bois",
+      "display_name": "Marsannay-le-Bois, Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21380, France",
+      "address": {
+        "village": "Marsannay-le-Bois",
+        "municipality": "Dijon",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21380",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Marsannay-le-Bois"
+      },
+      "boundingbox": [
+        "47.4170457",
+        "47.4646962",
+        "5.0701231",
+        "5.1237205"
+      ]
+    }
+  ],
+  "mercurey, bourgogne, france": [
+    {
+      "place_id": 82256336,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 2307768,
+      "lat": "46.8396584",
+      "lon": "4.7189272",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5767962396869049,
+      "addresstype": "village",
+      "name": "Mercurey",
+      "display_name": "Mercurey, Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71640, France",
+      "address": {
+        "village": "Mercurey",
+        "municipality": "Chalon-sur-Saône",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Mercurey"
+      },
+      "boundingbox": [
+        "46.8172330",
+        "46.8592570",
+        "4.6807100",
+        "4.7755130"
+      ]
+    }
+  ],
+  "meursault, bourgogne, france": [
+    {
+      "place_id": 82175230,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 128122,
+      "lat": "46.9783803",
+      "lon": "4.7694038",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5846104606183565,
+      "addresstype": "village",
+      "name": "Meursault",
+      "display_name": "Meursault, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "village": "Meursault",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Meursault"
+      },
+      "boundingbox": [
+        "46.9513655",
+        "46.9919420",
+        "4.7315123",
+        "4.8181767"
+      ]
+    }
+  ],
+  "montagny, bourgogne, france": [
+    {
+      "place_id": 82163186,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2745725353,
+      "lat": "46.7979090",
+      "lon": "4.9737473",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13339708628976882,
+      "addresstype": "hamlet",
+      "name": "Montagny",
+      "display_name": "Montagny, Allériot, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71380, France",
+      "address": {
+        "hamlet": "Montagny",
+        "village": "Allériot",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71380",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Montagny"
+      },
+      "boundingbox": [
+        "46.7779090",
+        "46.8179090",
+        "4.9537473",
+        "4.9937473"
+      ]
+    },
+    {
+      "place_id": 82130075,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 671251554,
+      "lat": "46.3262698",
+      "lon": "4.7657962",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13339707560845349,
+      "addresstype": "hamlet",
+      "name": "Montagny",
+      "display_name": "Montagny, Prissé, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71960, France",
+      "address": {
+        "hamlet": "Montagny",
+        "village": "Prissé",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71960",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Montagny"
+      },
+      "boundingbox": [
+        "46.3062698",
+        "46.3462698",
+        "4.7457962",
+        "4.7857962"
+      ]
+    },
+    {
+      "place_id": 82212767,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4729964587,
+      "lat": "46.5319384",
+      "lon": "4.5572029",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13339703440909437,
+      "addresstype": "hamlet",
+      "name": "Montagny",
+      "display_name": "Montagny, Sailly, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71250, France",
+      "address": {
+        "hamlet": "Montagny",
+        "village": "Sailly",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71250",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Montagny"
+      },
+      "boundingbox": [
+        "46.5119384",
+        "46.5519384",
+        "4.5372029",
+        "4.5772029"
+      ]
+    },
+    {
+      "place_id": 82201873,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4883295017,
+      "lat": "46.5591056",
+      "lon": "4.6040145",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13339703135728997,
+      "addresstype": "hamlet",
+      "name": "Montagny",
+      "display_name": "Montagny, Saint-Ythaire, Bonnay-Saint-Ythaire, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71460, France",
+      "address": {
+        "hamlet": "Montagny",
+        "city_district": "Saint-Ythaire",
+        "city": "Bonnay-Saint-Ythaire",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71460",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Montagny",
+        "name:fr": "Montagny",
+        "alt_name": "À Montagny"
+      },
+      "boundingbox": [
+        "46.5391056",
+        "46.5791056",
+        "4.5840145",
+        "4.6240145"
+      ]
+    },
+    {
+      "place_id": 82073683,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2770336047,
+      "lat": "46.9041399",
+      "lon": "4.2439690",
+      "category": "place",
+      "type": "hamlet",
+      "place_rank": 20,
+      "importance": 0.13339631570916302,
+      "addresstype": "hamlet",
+      "name": "Montagny",
+      "display_name": "Montagny, Brion, Autun, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71190, France",
+      "address": {
+        "hamlet": "Montagny",
+        "village": "Brion",
+        "municipality": "Autun",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Montagny"
+      },
+      "boundingbox": [
+        "46.8841399",
+        "46.9241399",
+        "4.2239690",
+        "4.2639690"
+      ]
+    },
+    {
+      "place_id": 82184723,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2875254518,
+      "lat": "46.5754519",
+      "lon": "5.1363012",
+      "category": "place",
+      "type": "isolated_dwelling",
+      "place_rank": 22,
+      "importance": 0.10673027161058973,
+      "addresstype": "isolated_dwelling",
+      "name": "Montagny",
+      "display_name": "Montagny, Ménetreuil, Louhans-Châteaurenaud, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71470, France",
+      "address": {
+        "isolated_dwelling": "Montagny",
+        "village": "Ménetreuil",
+        "municipality": "Louhans-Châteaurenaud",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71470",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Montagny"
+      },
+      "boundingbox": [
+        "46.5754019",
+        "46.5755019",
+        "5.1362512",
+        "5.1363512"
+      ]
+    },
+    {
+      "place_id": 82532023,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 128142,
+      "lat": "46.9903100",
+      "lon": "4.8488500",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5825797645851515,
+      "addresstype": "village",
+      "name": "Montagny-lès-Beaune",
+      "display_name": "Montagny-lès-Beaune, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21200, France",
+      "address": {
+        "village": "Montagny-lès-Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21200",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Montagny-lès-Beaune"
+      },
+      "boundingbox": [
+        "46.9662540",
+        "47.0025919",
+        "4.8317835",
+        "4.8750427"
+      ]
+    },
+    {
+      "place_id": 85238387,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 156677,
+      "lat": "47.0238927",
+      "lon": "5.2549831",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5823947527374693,
+      "addresstype": "village",
+      "name": "Montagny-lès-Seurre",
+      "display_name": "Montagny-lès-Seurre, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21250, France",
+      "address": {
+        "village": "Montagny-lès-Seurre",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21250",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Montagny-lès-Seurre",
+        "name:fr": "Montagny-lès-Seurre",
+        "ref": "2142401 - B"
+      },
+      "boundingbox": [
+        "47.0014742",
+        "47.0360331",
+        "5.2196792",
+        "5.2754133"
+      ]
+    }
+  ],
+  "monthelie, bourgogne, france": [
+    {
+      "place_id": 85307040,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 128126,
+      "lat": "46.9928724",
+      "lon": "4.7658083",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5827642471967899,
+      "addresstype": "village",
+      "name": "Monthelie",
+      "display_name": "Monthelie, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "village": "Monthelie",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Monthelie"
+      },
+      "boundingbox": [
+        "46.9885969",
+        "47.0127893",
+        "4.7494531",
+        "4.7760647"
+      ]
+    }
+  ],
+  "mâcon, bourgogne, france": [
+    {
+      "place_id": 389083553,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 912201,
+      "lat": "46.3036683",
+      "lon": "4.8322266",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.6168888284782038,
+      "addresstype": "town",
+      "name": "Mâcon",
+      "display_name": "Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71000, France",
+      "address": {
+        "town": "Mâcon",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71000",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Mâcon",
+        "name:br": "Mâcon",
+        "name:fr": "Mâcon",
+        "name:ja": "マコン",
+        "name:oc": "Mascon",
+        "name:frp": "Mâcon",
+        "name:hy": "Մակոն",
+        "name:ko": "마콩",
+        "name:ru": "Макон",
+        "name:th": "มากง",
+        "name:uk": "Макон",
+        "name:zh": "马孔"
+      },
+      "boundingbox": [
+        "46.2735289",
+        "46.3795653",
+        "4.7579669",
+        "4.8586251"
+      ]
+    },
+    {
+      "place_id": 389083158,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 3363317,
+      "lat": "46.4058376",
+      "lon": "4.6518766",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 14,
+      "importance": 0.5199163997035715,
+      "addresstype": "municipality",
+      "name": "Mâcon",
+      "display_name": "Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, France",
+      "address": {
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Mâcon",
+        "name:fr": "Mâcon",
+        "name:ko": "마콩"
+      },
+      "boundingbox": [
+        "46.1720397",
+        "46.6396956",
+        "4.3769643",
+        "4.9861903"
+      ]
+    }
+  ],
+  "nuits-saint-georges, bourgogne, france": [
+    {
+      "place_id": 85358160,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 131393,
+      "lat": "47.1367598",
+      "lon": "4.9489061",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5882079788811715,
+      "addresstype": "village",
+      "name": "Nuits-Saint-Georges",
+      "display_name": "Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+      "address": {
+        "village": "Nuits-Saint-Georges",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21700",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Nuits-Saint-Georges",
+        "name:br": "Neut",
+        "name:fr": "Nuits-Saint-Georges",
+        "name:ja": "ニュイ＝サン＝ジョルジュ",
+        "name:fr-x-brg": "Neut"
+      },
+      "boundingbox": [
+        "47.1152343",
+        "47.1883390",
+        "4.9034052",
+        "4.9793858"
+      ]
+    }
+  ],
+  "pommard, bourgogne, france": [
+    {
+      "place_id": 85538131,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 126829,
+      "lat": "47.0087919",
+      "lon": "4.7962295",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.583550046974689,
+      "addresstype": "village",
+      "name": "Pommard",
+      "display_name": "Pommard, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21630, France",
+      "address": {
+        "village": "Pommard",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21630",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Pommard"
+      },
+      "boundingbox": [
+        "46.9885464",
+        "47.0401335",
+        "4.7628104",
+        "4.8246450"
+      ]
+    }
+  ],
+  "pouilly-fuissé, bourgogne, france": [
+    {
+      "place_id": 81930878,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 38978404,
+      "lat": "46.2764517",
+      "lon": "4.7858077",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05340127641718162,
+      "addresstype": "road",
+      "name": "Rue Pouilly-Fuissé",
+      "display_name": "Rue Pouilly-Fuissé, Le Colombier, Loché, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71000, France",
+      "address": {
+        "road": "Rue Pouilly-Fuissé",
+        "hamlet": "Le Colombier",
+        "city_district": "Loché",
+        "town": "Mâcon",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71000",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue Pouilly-Fuissé"
+      },
+      "boundingbox": [
+        "46.2757067",
+        "46.2771967",
+        "4.7853273",
+        "4.7862881"
+      ]
+    }
+  ],
+  "pouilly-vinzelles, bourgogne, france": [
+    {
+      "place_id": 81959723,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 38978398,
+      "lat": "46.2789102",
+      "lon": "4.7825637",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05340127641718162,
+      "addresstype": "road",
+      "name": "Rue Pouilly-Vinzelles",
+      "display_name": "Rue Pouilly-Vinzelles, En Gelée, Le Colombier, Loché, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71000, France",
+      "address": {
+        "road": "Rue Pouilly-Vinzelles",
+        "neighbourhood": "En Gelée",
+        "hamlet": "Le Colombier",
+        "city_district": "Loché",
+        "town": "Mâcon",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71000",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue Pouilly-Vinzelles"
+      },
+      "boundingbox": [
+        "46.2772892",
+        "46.2815258",
+        "4.7815519",
+        "4.7852034"
+      ]
+    }
+  ],
+  "puligny-montrachet, bourgogne, france": [
+    {
+      "place_id": 82273635,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 128158,
+      "lat": "46.9487302",
+      "lon": "4.7531515",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5834893557552078,
+      "addresstype": "village",
+      "name": "Puligny-Montrachet",
+      "display_name": "Puligny-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "village": "Puligny-Montrachet",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Puligny-Montrachet"
+      },
+      "boundingbox": [
+        "46.9349604",
+        "46.9612440",
+        "4.7314460",
+        "4.7889923"
+      ]
+    }
+  ],
+  "rully, bourgogne, france": [
+    {
+      "place_id": 82145108,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1170013,
+      "lat": "46.8758062",
+      "lon": "4.7435424",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5681464384571929,
+      "addresstype": "village",
+      "name": "Rully",
+      "display_name": "Rully, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71150, France",
+      "address": {
+        "village": "Rully",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71150",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rully"
+      },
+      "boundingbox": [
+        "46.8522500",
+        "46.8898830",
+        "4.7046862",
+        "4.8157968"
+      ]
+    }
+  ],
+  "saint-aubin, bourgogne, france": [
+    {
+      "place_id": 82368290,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 128854,
+      "lat": "46.9500984",
+      "lon": "4.7088749",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5813519004847137,
+      "addresstype": "village",
+      "name": "Saint-Aubin",
+      "display_name": "Saint-Aubin, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "village": "Saint-Aubin",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Saint-Aubin"
+      },
+      "boundingbox": [
+        "46.9308769",
+        "46.9701397",
+        "4.6792079",
+        "4.7361602"
+      ]
+    },
+    {
+      "place_id": 85171898,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 161699,
+      "lat": "47.0325651",
+      "lon": "5.3296334",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5611403472673288,
+      "addresstype": "village",
+      "name": "Saint-Aubin",
+      "display_name": "Saint-Aubin, Dole, Jura, Bourgogne-Franche-Comté, France métropolitaine, 39410, France",
+      "address": {
+        "village": "Saint-Aubin",
+        "municipality": "Dole",
+        "county": "Jura",
+        "ISO3166-2-lvl6": "FR-39",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "39410",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Saint-Aubin"
+      },
+      "boundingbox": [
+        "47.0013312",
+        "47.0605821",
+        "5.2752867",
+        "5.3954409"
+      ]
+    },
+    {
+      "place_id": 85515815,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 2371055,
+      "lat": "47.8228000",
+      "lon": "3.3094000",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 18,
+      "importance": 0.5295574623734345,
+      "addresstype": "village",
+      "name": "Saint-Aubin-Château-Neuf",
+      "display_name": "Saint-Aubin-Château-Neuf, Le Val d'Ocre, Auxerre, Yonne, Bourgogne-Franche-Comté, France métropolitaine, 89110, France",
+      "address": {
+        "village": "Saint-Aubin-Château-Neuf",
+        "city": "Le Val d'Ocre",
+        "municipality": "Auxerre",
+        "county": "Yonne",
+        "ISO3166-2-lvl6": "FR-89",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "89110",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Saint-Aubin-Château-Neuf",
+        "name:fr": "Saint-Aubin-Château-Neuf",
+        "name:uk": "Сент-Обен-Шато-Неф",
+        "name:zh": "圣欧班新堡",
+        "loc_name": "Saint-Aubin"
+      },
+      "boundingbox": [
+        "47.7979033",
+        "47.8519234",
+        "3.2384778",
+        "3.3463753"
+      ]
+    }
+  ],
+  "saint-romain, bourgogne, france": [
+    {
+      "place_id": 85271994,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 129472,
+      "lat": "46.9982395",
+      "lon": "4.7083847",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5814067973101106,
+      "addresstype": "village",
+      "name": "Saint-Romain",
+      "display_name": "Saint-Romain, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "village": "Saint-Romain",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Saint-Romain"
+      },
+      "boundingbox": [
+        "46.9854345",
+        "47.0410297",
+        "4.6634833",
+        "4.7498387"
+      ]
+    }
+  ],
+  "saint-véran, bourgogne, france": [
+    {
+      "place_id": 82123596,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 225945211,
+      "lat": "46.9162110",
+      "lon": "4.7869207",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.12549564188972803,
+      "addresstype": "amenity",
+      "name": "Église Saint-Véran",
+      "display_name": "Église Saint-Véran, Rue Saint-Véran, Chaudenay, Créteuil le Bas, Chaudenay, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71150, France",
+      "address": {
+        "amenity": "Église Saint-Véran",
+        "road": "Rue Saint-Véran",
+        "residential": "Chaudenay",
+        "hamlet": "Créteuil le Bas",
+        "village": "Chaudenay",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71150",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Église Saint-Véran"
+      },
+      "boundingbox": [
+        "46.9160820",
+        "46.9163390",
+        "4.7866990",
+        "4.7871360"
+      ]
+    },
+    {
+      "place_id": 81995301,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 38978399,
+      "lat": "46.2797868",
+      "lon": "4.7847329",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05340127641718162,
+      "addresstype": "road",
+      "name": "Rue Saint-Véran",
+      "display_name": "Rue Saint-Véran, En Gelée, Le Colombier, Loché, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71000, France",
+      "address": {
+        "road": "Rue Saint-Véran",
+        "neighbourhood": "En Gelée",
+        "hamlet": "Le Colombier",
+        "city_district": "Loché",
+        "town": "Mâcon",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71000",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue Saint-Véran"
+      },
+      "boundingbox": [
+        "46.2773128",
+        "46.2815409",
+        "4.7825705",
+        "4.7854515"
+      ]
+    },
+    {
+      "place_id": 82103196,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 134514497,
+      "lat": "46.2523317",
+      "lon": "4.7362498",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339707560845346,
+      "addresstype": "road",
+      "name": "Route du Saint-Véran",
+      "display_name": "Route du Saint-Véran, Les Truges, Saint-Vérand, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71570, France",
+      "address": {
+        "road": "Route du Saint-Véran",
+        "hamlet": "Les Truges",
+        "village": "Saint-Vérand",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71570",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "ref": "D 569",
+        "name": "Route du Saint-Véran",
+        "name:fr": "Route du Saint-Véran"
+      },
+      "boundingbox": [
+        "46.2520488",
+        "46.2529129",
+        "4.7362471",
+        "4.7367387"
+      ]
+    },
+    {
+      "place_id": 82135710,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 225931018,
+      "lat": "46.9147688",
+      "lon": "4.7860313",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339647592889292,
+      "addresstype": "road",
+      "name": "Rue Saint-Véran",
+      "display_name": "Rue Saint-Véran, Chaudenay, Créteuil le Bas, Chaudenay, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71150, France",
+      "address": {
+        "road": "Rue Saint-Véran",
+        "residential": "Chaudenay",
+        "hamlet": "Créteuil le Bas",
+        "village": "Chaudenay",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71150",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue Saint-Véran"
+      },
+      "boundingbox": [
+        "46.9130614",
+        "46.9162532",
+        "4.7850979",
+        "4.7872891"
+      ]
+    },
+    {
+      "place_id": 82131347,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 734438269,
+      "lat": "46.2550544",
+      "lon": "4.7360950",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339645151445789,
+      "addresstype": "road",
+      "name": "Route du Saint-Véran",
+      "display_name": "Route du Saint-Véran, Les Sauniers, Saint-Vérand, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71570, France",
+      "address": {
+        "road": "Route du Saint-Véran",
+        "hamlet": "Les Sauniers",
+        "village": "Saint-Vérand",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71570",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "ref": "D 569",
+        "name": "Route du Saint-Véran",
+        "name:fr": "Route du Saint-Véran"
+      },
+      "boundingbox": [
+        "46.2530298",
+        "46.2556656",
+        "4.7341013",
+        "4.7365223"
+      ]
+    },
+    {
+      "place_id": 82092023,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 225951449,
+      "lat": "46.9137417",
+      "lon": "4.7857311",
+      "category": "highway",
+      "type": "service",
+      "place_rank": 27,
+      "importance": 0.04006314259555961,
+      "addresstype": "road",
+      "name": "Impasse Saint-Veran",
+      "display_name": "Impasse Saint-Veran, Créteuil le Bas, Chaudenay, Chalon-sur-Saône, Bourgogne-Franche-Comté, France métropolitaine, 71150, France",
+      "address": {
+        "road": "Impasse Saint-Veran",
+        "hamlet": "Créteuil le Bas",
+        "village": "Chaudenay",
+        "municipality": "Chalon-sur-Saône",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71150",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Impasse Saint-Veran"
+      },
+      "boundingbox": [
+        "46.9137379",
+        "46.9137801",
+        "4.7854836",
+        "4.7859665"
+      ]
+    },
+    {
+      "place_id": 81985298,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 243800502,
+      "lat": "46.2550619",
+      "lon": "4.7349596",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 6.31181811245444e-05,
+      "addresstype": "amenity",
+      "name": "Église Saint-Véran",
+      "display_name": "Église Saint-Véran, Route du Saint-Véran, Les Sauniers, Saint-Vérand, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71570, France",
+      "address": {
+        "amenity": "Église Saint-Véran",
+        "road": "Route du Saint-Véran",
+        "hamlet": "Les Sauniers",
+        "village": "Saint-Vérand",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71570",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Église Saint-Véran"
+      },
+      "boundingbox": [
+        "46.2550074",
+        "46.2551084",
+        "4.7348531",
+        "4.7350651"
+      ]
+    }
+  ],
+  "santenay, bourgogne, france": [
+    {
+      "place_id": 82159899,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 130548,
+      "lat": "46.9115071",
+      "lon": "4.6996302",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5831850399736564,
+      "addresstype": "village",
+      "name": "Santenay",
+      "display_name": "Santenay, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21590, France",
+      "address": {
+        "village": "Santenay",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21590",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Santenay"
+      },
+      "boundingbox": [
+        "46.8998587",
+        "46.9367366",
+        "4.6639710",
+        "4.7219425"
+      ]
+    }
+  ],
+  "savigny-les-beaune, bourgogne, france": [
+    {
+      "place_id": 85313384,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 131594,
+      "lat": "47.0628612",
+      "lon": "4.8185532",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5840711515326257,
+      "addresstype": "village",
+      "name": "Savigny-lès-Beaune",
+      "display_name": "Savigny-lès-Beaune, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21420, France",
+      "address": {
+        "village": "Savigny-lès-Beaune",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21420",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Savigny-lès-Beaune"
+      },
+      "boundingbox": [
+        "47.0414922",
+        "47.1177273",
+        "4.7541803",
+        "4.8542384"
+      ]
+    }
+  ],
+  "viré-clessé, bourgogne, france": [
+    {
+      "place_id": 82006525,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 153645093,
+      "lat": "46.4493784",
+      "lon": "4.8436685",
+      "category": "shop",
+      "type": "alcohol",
+      "place_rank": 30,
+      "importance": 6.370565346756722e-05,
+      "addresstype": "shop",
+      "name": "La Maison du Viré-Clessé",
+      "display_name": "La Maison du Viré-Clessé, Rue du 8 Mai 1945, Chez Petit, Vérizet, Viré, Mâcon, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71260, France",
+      "address": {
+        "shop": "La Maison du Viré-Clessé",
+        "road": "Rue du 8 Mai 1945",
+        "hamlet": "Chez Petit",
+        "city_district": "Vérizet",
+        "village": "Viré",
+        "municipality": "Mâcon",
+        "county": "Saône-et-Loire",
+        "ISO3166-2-lvl6": "FR-71",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "71260",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "La Maison du Viré-Clessé"
+      },
+      "boundingbox": [
+        "46.4492769",
+        "46.4494344",
+        "4.8435285",
+        "4.8438062"
+      ]
+    }
+  ],
+  "volnay, bourgogne, france": [
+    {
+      "place_id": 89239117,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 127321,
+      "lat": "47.0016955",
+      "lon": "4.7811102",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5760307136927046,
+      "addresstype": "village",
+      "name": "Volnay",
+      "display_name": "Volnay, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "village": "Volnay",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Volnay"
+      },
+      "boundingbox": [
+        "46.9781706",
+        "47.0192307",
+        "4.7435899",
+        "4.8124596"
+      ]
+    }
+  ],
+  "vosne-romanée, bourgogne, france": [
+    {
+      "place_id": 85529644,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 131382,
+      "lat": "47.1585795",
+      "lon": "4.9547623",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5837922423156582,
+      "addresstype": "village",
+      "name": "Vosne-Romanée",
+      "display_name": "Vosne-Romanée, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+      "address": {
+        "village": "Vosne-Romanée",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21700",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Vosne-Romanée",
+        "name:fr": "Vosne-Romanée",
+        "name:ja": "ヴォーヌ＝ロマネ"
+      },
+      "boundingbox": [
+        "47.1480132",
+        "47.1703334",
+        "4.9361933",
+        "4.9764987"
+      ]
+    }
+  ],
+  "vougeot, bourgogne, france": [
+    {
+      "place_id": 85589206,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 134028,
+      "lat": "47.1772352",
+      "lon": "4.9643152",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5834589887141092,
+      "addresstype": "village",
+      "name": "Vougeot",
+      "display_name": "Vougeot, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21640, France",
+      "address": {
+        "village": "Vougeot",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21640",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Vougeot",
+        "name:fr": "Vougeot",
+        "name:ja": "ヴージョ"
+      },
+      "boundingbox": [
+        "47.1676165",
+        "47.1791154",
+        "4.9533264",
+        "4.9678839"
+      ]
+    }
+  ],
+  "château de puligny-montrachet, monthelie, bourgogne, france": [],
+  "château de puligny-montrachet, bourgogne, france": [
+    {
+      "place_id": 82229924,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 79735914,
+      "lat": "46.9463892",
+      "lon": "4.7525258",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05339871290150298,
+      "addresstype": "road",
+      "name": "Rue du Château",
+      "display_name": "Rue du Château, Puligny-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "road": "Rue du Château",
+        "village": "Puligny-Montrachet",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue du Château"
+      },
+      "boundingbox": [
+        "46.9459603",
+        "46.9467658",
+        "4.7506410",
+        "4.7544056"
+      ]
+    },
+    {
+      "place_id": 82176102,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 79736187,
+      "lat": "46.9466826",
+      "lon": "4.7517513",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05339871290150298,
+      "addresstype": "road",
+      "name": "Cour du Vieux Château",
+      "display_name": "Cour du Vieux Château, Puligny-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "road": "Cour du Vieux Château",
+        "village": "Puligny-Montrachet",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Cour du Vieux Château"
+      },
+      "boundingbox": [
+        "46.9465750",
+        "46.9467901",
+        "4.7515332",
+        "4.7519694"
+      ]
+    },
+    {
+      "place_id": 82282914,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 79735978,
+      "lat": "46.9475619",
+      "lon": "4.7506231",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05339871290150298,
+      "addresstype": "road",
+      "name": "Rue derrière le Chateau",
+      "display_name": "Rue derrière le Chateau, Puligny-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "road": "Rue derrière le Chateau",
+        "village": "Puligny-Montrachet",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue derrière le Chateau"
+      },
+      "boundingbox": [
+        "46.9457506",
+        "46.9494005",
+        "4.7500408",
+        "4.7514502"
+      ]
+    },
+    {
+      "place_id": 82376757,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 79736254,
+      "lat": "46.9468992",
+      "lon": "4.7516115",
+      "category": "highway",
+      "type": "service",
+      "place_rank": 27,
+      "importance": 0.04006537956816967,
+      "addresstype": "road",
+      "name": "Cour du Vieux Château",
+      "display_name": "Cour du Vieux Château, Puligny-Montrachet, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21190, France",
+      "address": {
+        "road": "Cour du Vieux Château",
+        "village": "Puligny-Montrachet",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21190",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Cour du Vieux Château"
+      },
+      "boundingbox": [
+        "46.9467901",
+        "46.9470083",
+        "4.7515332",
+        "4.7516897"
+      ]
+    }
+  ],
+  "deux montille, auxey-duresses, bourgogne, france": [],
+  "deux montille, bourgogne, france": [],
+  "deux montille winery, bourgogne, france": [],
+  "deux montille domaine, bourgogne, france": [],
+  "deux montille, burgundy, france": [],
+  "domaine aubert & paméla de villaine, rully, bourgogne, france": [],
+  "domaine aubert & paméla de villaine, bourgogne, france": [],
+  "domaine aubert & paméla de villaine winery, bourgogne, france": [],
+  "domaine aubert & paméla de villaine domaine, bourgogne, france": [],
+  "domaine aubert & paméla de villaine, burgundy, france": [],
+  "domaine billaud-simon, chablis, bourgogne, france": [],
+  "domaine billaud-simon, bourgogne, france": [],
+  "domaine billaud-simon winery, bourgogne, france": [],
+  "domaine billaud-simon domaine, bourgogne, france": [],
+  "domaine billaud-simon, burgundy, france": [],
+  "domaine bonneau du martray, côte de beaune, bourgogne, france": [],
+  "domaine bonneau du martray, bourgogne, france": [],
+  "domaine bonneau du martray winery, bourgogne, france": [],
+  "domaine bonneau du martray domaine, bourgogne, france": [],
+  "domaine bonneau du martray, burgundy, france": [],
+  "domaine comte georges de vogüé, chambolle-musigny, bourgogne, france": [],
+  "domaine comte georges de vogüé, bourgogne, france": [],
+  "domaine comte georges de vogüé winery, bourgogne, france": [],
+  "domaine comte georges de vogüé domaine, bourgogne, france": [],
+  "domaine comte georges de vogüé, burgundy, france": [],
+  "domaine cécile tremblay, côte de nuits, bourgogne, france": [],
+  "domaine cécile tremblay, bourgogne, france": [],
+  "domaine cécile tremblay winery, bourgogne, france": [],
+  "domaine cécile tremblay domaine, bourgogne, france": [],
+  "domaine cécile tremblay, burgundy, france": [],
+  "domaine dugat-py, gevrey-chambertin, bourgogne, france": [],
+  "domaine dugat-py, bourgogne, france": [],
+  "domaine dugat-py winery, bourgogne, france": [],
+  "domaine dugat-py domaine, bourgogne, france": [],
+  "domaine dugat-py, burgundy, france": [],
+  "domaine jacques carillon, puligny-montrachet, bourgogne, france": [],
+  "domaine jacques carillon, bourgogne, france": [],
+  "domaine jacques carillon winery, bourgogne, france": [],
+  "domaine jacques carillon domaine, bourgogne, france": [],
+  "domaine jacques carillon, burgundy, france": [],
+  "domaine jean paul droin, chablis, bourgogne, france": [],
+  "domaine jean paul droin, bourgogne, france": [],
+  "domaine jean paul droin winery, bourgogne, france": [],
+  "domaine jean paul droin domaine, bourgogne, france": [],
+  "domaine jean paul droin, burgundy, france": [],
+  "domaine jean-marc millot, côte de nuits, bourgogne, france": [],
+  "domaine jean-marc millot, bourgogne, france": [],
+  "domaine jean-marc millot winery, bourgogne, france": [],
+  "domaine jean-marc millot domaine, bourgogne, france": [],
+  "domaine jean-marc millot, burgundy, france": [],
+  "domaine robert groffier, côte de nuits, bourgogne, france": [],
+  "domaine robert groffier, bourgogne, france": [],
+  "domaine robert groffier winery, bourgogne, france": [],
+  "domaine robert groffier domaine, bourgogne, france": [],
+  "domaine robert groffier, burgundy, france": [],
+  "domaine simon bize, savigny-les-beaune, bourgogne, france": [],
+  "domaine simon bize, bourgogne, france": [],
+  "domaine simon bize winery, bourgogne, france": [],
+  "domaine simon bize domaine, bourgogne, france": [],
+  "domaine simon bize, burgundy, france": [],
+  "domaine stéphane magnien, côte de nuits, bourgogne, france": [],
+  "domaine stéphane magnien, bourgogne, france": [],
+  "domaine stéphane magnien winery, bourgogne, france": [],
+  "domaine stéphane magnien domaine, bourgogne, france": [],
+  "domaine stéphane magnien, burgundy, france": [],
+  "domaine de montille, volnay, bourgogne, france": [],
+  "domaine de montille, bourgogne, france": [],
+  "domaine de montille winery, bourgogne, france": [],
+  "domaine de montille domaine, bourgogne, france": [],
+  "domaine de montille, burgundy, france": [],
+  "domaine des comtes lafon, monthelie, bourgogne, france": [],
+  "domaine des comtes lafon, bourgogne, france": [],
+  "domaine des comtes lafon winery, bourgogne, france": [],
+  "domaine des comtes lafon domaine, bourgogne, france": [],
+  "domaine des comtes lafon, burgundy, france": [],
+  "domaine du comte liger-belair, côte de nuits, bourgogne, france": [],
+  "domaine du comte liger-belair, bourgogne, france": [],
+  "domaine du comte liger-belair winery, bourgogne, france": [],
+  "domaine du comte liger-belair domaine, bourgogne, france": [],
+  "domaine du comte liger-belair, burgundy, france": [],
+  "faiveley, nuits-saint-georges, bourgogne, france": [
+    {
+      "place_id": 84603789,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1292714295,
+      "lat": "47.1350103",
+      "lon": "4.9684021",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05339909895475697,
+      "addresstype": "road",
+      "name": "Rue Georges Faiveley",
+      "display_name": "Rue Georges Faiveley, Zone d'Activités Économiques du Pré Saint-Denis, Nuits-Saint-Georges, Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21700, France",
+      "address": {
+        "road": "Rue Georges Faiveley",
+        "commercial": "Zone d'Activités Économiques du Pré Saint-Denis",
+        "village": "Nuits-Saint-Georges",
+        "municipality": "Beaune",
+        "county": "Côte-d'Or",
+        "ISO3166-2-lvl6": "FR-21",
+        "state": "Bourgogne-Franche-Comté",
+        "ISO3166-2-lvl4": "FR-BFC",
+        "region": "France métropolitaine",
+        "postcode": "21700",
+        "country": "France",
+        "country_code": "fr"
+      },
+      "namedetails": {
+        "name": "Rue Georges Faiveley"
+      },
+      "boundingbox": [
+        "47.1340884",
+        "47.1359084",
+        "4.9679260",
+        "4.9689263"
+      ]
+    }
+  ],
+  "joseph drouhin, vosne-romanée, bourgogne, france": [],
+  "joseph drouhin, bourgogne, france": [],
+  "joseph drouhin winery, bourgogne, france": [],
+  "joseph drouhin domaine, bourgogne, france": [],
+  "joseph drouhin, burgundy, france": [],
+  "les héritiers du comte lafon, mâcon, bourgogne, france": [],
+  "les héritiers du comte lafon, bourgogne, france": [],
+  "les héritiers du comte lafon winery, bourgogne, france": [],
+  "les héritiers du comte lafon domaine, bourgogne, france": [],
+  "les héritiers du comte lafon, burgundy, france": [],
+  "maison de montille, bourgogne, bourgogne, france": [],
+  "maison de montille, bourgogne, france": [],
+  "maison de montille winery, bourgogne, france": [],
+  "maison de montille domaine, bourgogne, france": [],
+  "maison de montille, burgundy, france": [],
+  "wd_search::deux montille": [],
+  "wd_search::domaine deux montille": [],
+  "wd_search::maison deux montille": [],
+  "wd_search::chateau deux montille": [],
+  "wd_search::deux montille winery": [],
+  "wd_search::domaine aubert & paméla de villaine": [],
+  "wd_search::maison domaine aubert & paméla de villaine": [],
+  "wd_search::chateau domaine aubert & paméla de villaine": [],
+  "wd_search::domaine aubert & paméla de villaine winery": [],
+  "wd_search::domaine billaud-simon": [
+    {
+      "id": "Q132053689",
+      "title": "Q132053689",
+      "pageid": 125934555,
+      "concepturi": "http://www.wikidata.org/entity/Q132053689",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q132053689",
+      "display": {
+        "label": {
+          "value": "Domaine Billaud Simon",
+          "language": "fr"
+        }
+      },
+      "label": "Domaine Billaud Simon",
+      "match": {
+        "type": "label",
+        "language": "fr",
+        "text": "Domaine Billaud Simon"
+      }
+    }
+  ],
+  "wd_entity::Q132053689": {
+    "lat": null,
+    "lng": null
+  },
+  "wd_search::maison domaine billaud-simon": [],
+  "wd_search::chateau domaine billaud-simon": [],
+  "wd_search::domaine billaud-simon winery": [],
+  "wd_search::domaine bonneau du martray": [],
+  "wd_search::maison domaine bonneau du martray": [],
+  "wd_search::chateau domaine bonneau du martray": [],
+  "wd_search::domaine bonneau du martray winery": [],
+  "wd_search::domaine comte georges de vogüé": [],
+  "wd_search::maison domaine comte georges de vogüé": [],
+  "wd_search::chateau domaine comte georges de vogüé": [],
+  "wd_search::domaine comte georges de vogüé winery": [],
+  "wd_search::domaine cécile tremblay": [],
+  "wd_search::maison domaine cécile tremblay": [],
+  "wd_search::chateau domaine cécile tremblay": [],
+  "wd_search::domaine cécile tremblay winery": [],
+  "wd_search::domaine dugat-py": [],
+  "wd_search::maison domaine dugat-py": [],
+  "wd_search::chateau domaine dugat-py": [],
+  "wd_search::domaine dugat-py winery": [],
+  "wd_search::domaine jacques carillon": [],
+  "wd_search::maison domaine jacques carillon": [],
+  "wd_search::chateau domaine jacques carillon": [],
+  "wd_search::domaine jacques carillon winery": [],
+  "wd_search::domaine jean paul droin": [],
+  "wd_search::maison domaine jean paul droin": [],
+  "wd_search::chateau domaine jean paul droin": [],
+  "wd_search::domaine jean paul droin winery": [],
+  "wd_search::domaine jean-marc millot": [],
+  "wd_search::maison domaine jean-marc millot": [],
+  "wd_search::chateau domaine jean-marc millot": [],
+  "wd_search::domaine jean-marc millot winery": [],
+  "wd_search::domaine robert groffier": [],
+  "wd_search::maison domaine robert groffier": [],
+  "wd_search::chateau domaine robert groffier": [],
+  "wd_search::domaine robert groffier winery": [],
+  "wd_search::domaine simon bize": [],
+  "wd_search::maison domaine simon bize": [],
+  "wd_search::chateau domaine simon bize": [],
+  "wd_search::domaine simon bize winery": [],
+  "wd_search::domaine stéphane magnien": [],
+  "wd_search::maison domaine stéphane magnien": [],
+  "wd_search::chateau domaine stéphane magnien": [],
+  "wd_search::domaine stéphane magnien winery": [],
+  "wd_search::domaine de montille": [],
+  "wd_search::maison domaine de montille": [],
+  "wd_search::chateau domaine de montille": [],
+  "wd_search::domaine de montille winery": [],
+  "wd_search::domaine des comtes lafon": [],
+  "wd_search::maison domaine des comtes lafon": [],
+  "wd_search::chateau domaine des comtes lafon": [],
+  "wd_search::domaine des comtes lafon winery": [],
+  "wd_search::domaine du comte liger-belair": [],
+  "wd_search::maison domaine du comte liger-belair": [],
+  "wd_search::chateau domaine du comte liger-belair": [],
+  "wd_search::domaine du comte liger-belair winery": [],
+  "wd_search::joseph drouhin": [],
+  "wd_search::domaine joseph drouhin": [],
+  "wd_search::maison joseph drouhin": [
+    {
+      "id": "Q1129938",
+      "title": "Q1129938",
+      "pageid": 1076934,
+      "concepturi": "http://www.wikidata.org/entity/Q1129938",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q1129938",
+      "display": {
+        "label": {
+          "value": "Maison Joseph Drouhin",
+          "language": "en"
+        },
+        "description": {
+          "value": "winery",
+          "language": "en"
+        }
+      },
+      "label": "Maison Joseph Drouhin",
+      "description": "winery",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Maison Joseph Drouhin"
+      }
+    }
+  ],
+  "wd_entity::Q1129938": {
+    "lat": 47.02327777777778,
+    "lng": 4.836222222222222
+  },
+  "wd_search::les héritiers du comte lafon": [],
+  "wd_search::domaine les héritiers du comte lafon": [],
+  "wd_search::maison les héritiers du comte lafon": [],
+  "wd_search::chateau les héritiers du comte lafon": [],
+  "wd_search::les héritiers du comte lafon winery": [],
+  "wd_search::maison de montille": [
+    {
+      "id": "Q132057722",
+      "title": "Q132057722",
+      "pageid": 125938620,
+      "concepturi": "http://www.wikidata.org/entity/Q132057722",
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q132057722",
+      "display": {
+        "label": {
+          "value": "Maison de Montille",
+          "language": "fr"
+        }
+      },
+      "label": "Maison de Montille",
+      "match": {
+        "type": "label",
+        "language": "fr",
+        "text": "Maison de Montille"
+      }
+    }
+  ],
+  "wd_entity::Q132057722": {
+    "lat": null,
+    "lng": null
+  },
+  "wd_search::domaine maison de montille": [],
+  "wd_search::chateau maison de montille": [],
+  "wd_search::maison de montille winery": []
+}

@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.836222222222222,
+          47.02327777777778
+        ]
+      },
+      "properties": {
+        "producer": "Joseph Drouhin",
+        "wine_count": 67,
+        "primary_sub_region": "Vosne-Romanée",
+        "location_source": "producer_wikidata",
+        "location_confidence": 0.74,
+        "price_min": 269.1,
+        "price_avg": 2946.93,
+        "price_max": 15864.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7811102,
+          47.0016955
+        ]
+      },
+      "properties": {
+        "producer": "Domaine de Montille",
+        "wine_count": 50,
+        "primary_sub_region": "Volnay",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 626.66,
+        "price_avg": 1844.95,
+        "price_max": 6116.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9684021,
+          47.1350103
+        ]
+      },
+      "properties": {
+        "producer": "Faiveley",
+        "wine_count": 47,
+        "primary_sub_region": "Nuits-Saint-Georges",
+        "location_source": "producer_geocode",
+        "location_confidence": 0.607,
+        "price_min": 338.11,
+        "price_avg": 2287.48,
+        "price_max": 8336.62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9533347,
+          47.1864158
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Comte Georges de Vogüé",
+        "wine_count": 18,
+        "primary_sub_region": "Chambolle-Musigny",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 4761.09,
+        "price_avg": 10295.14,
+        "price_max": 17557.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9714221,
+          47.1314466
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Jean-Marc Millot",
+        "wine_count": 12,
+        "primary_sub_region": "Côte De Nuits",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 563.93,
+        "price_avg": 896.6,
+        "price_max": 1436.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8322266,
+          46.3036683
+        ]
+      },
+      "properties": {
+        "producer": "Les Héritiers du Comte Lafon",
+        "wine_count": 12,
+        "primary_sub_region": "Mâcon",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 395.95,
+        "price_avg": 593.42,
+        "price_max": 1128.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9705666,
+          47.2261857
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Dugat-Py",
+        "wine_count": 11,
+        "primary_sub_region": "Gevrey-Chambertin",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 1624.67,
+        "price_avg": 4880.85,
+        "price_max": 9967.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7435424,
+          46.8758062
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Aubert & Paméla de Villaine",
+        "wine_count": 10,
+        "primary_sub_region": "Rully",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 686.88,
+        "price_avg": 1190.4,
+        "price_max": 1881.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9714221,
+          47.1314466
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Cécile Tremblay",
+        "wine_count": 10,
+        "primary_sub_region": "Côte De Nuits",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": null,
+        "price_avg": null,
+        "price_max": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8001657,
+          47.8152073
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Jean Paul Droin",
+        "wine_count": 10,
+        "primary_sub_region": "Chablis",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 626.66,
+        "price_avg": 1275.4,
+        "price_max": 1881.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7658083,
+          46.9928724
+        ]
+      },
+      "properties": {
+        "producer": "Domaine des Comtes Lafon",
+        "wine_count": 10,
+        "primary_sub_region": "Monthelie",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 1188.71,
+        "price_avg": 1779.61,
+        "price_max": 2633.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8001657,
+          47.8152073
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Billaud-Simon",
+        "wine_count": 9,
+        "primary_sub_region": "Chablis",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 388.29,
+        "price_avg": 1015.58,
+        "price_max": 1868.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9714221,
+          47.1314466
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Robert Groffier",
+        "wine_count": 9,
+        "primary_sub_region": "Côte De Nuits",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 984.21,
+        "price_avg": 8489.82,
+        "price_max": 20192.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9714221,
+          47.1314466
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Stéphane Magnien",
+        "wine_count": 9,
+        "primary_sub_region": "Côte De Nuits",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 501.2,
+        "price_avg": 2417.28,
+        "price_max": 4829.47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0681417,
+          49.3555104
+        ]
+      },
+      "properties": {
+        "producer": "Maison de Montille",
+        "wine_count": 9,
+        "primary_sub_region": "Bourgogne",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 595.29,
+        "price_avg": 785.43,
+        "price_max": 1253.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8185532,
+          47.0628612
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Simon Bize",
+        "wine_count": 8,
+        "primary_sub_region": "Savigny-les-Beaune",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 871.3,
+        "price_avg": 1539.91,
+        "price_max": 4384.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9714221,
+          47.1314466
+        ]
+      },
+      "properties": {
+        "producer": "Domaine du Comte Liger-Belair",
+        "wine_count": 7,
+        "primary_sub_region": "Côte De Nuits",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": null,
+        "price_avg": null,
+        "price_max": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7531515,
+          46.9487302
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Jacques Carillon",
+        "wine_count": 4,
+        "primary_sub_region": "Puligny-Montrachet",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 1185.57,
+        "price_avg": 1240.46,
+        "price_max": 1351.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7467921,
+          46.9862244
+        ]
+      },
+      "properties": {
+        "producer": "Deux Montille",
+        "wine_count": 3,
+        "primary_sub_region": "Auxey-Duresses",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": 689.39,
+        "price_avg": 708.42,
+        "price_max": 721.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7525258,
+          46.9463892
+        ]
+      },
+      "properties": {
+        "producer": "Château de Puligny-Montrachet",
+        "wine_count": 1,
+        "primary_sub_region": "Monthelie",
+        "location_source": "producer_geocode",
+        "location_confidence": 0.75,
+        "price_min": 686.88,
+        "price_avg": 686.88,
+        "price_max": 686.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8453231,
+          47.0227115
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Bonneau du Martray",
+        "wine_count": 1,
+        "primary_sub_region": "Côte De Beaune",
+        "location_source": "producer_sub_region_fallback",
+        "location_confidence": 0.55,
+        "price_min": null,
+        "price_avg": null,
+        "price_max": null
+      }
+    }
+  ]
+}

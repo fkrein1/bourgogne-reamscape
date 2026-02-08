@@ -1,0 +1,20 @@
+{
+  "Maison de Montille": {
+    "lat": 47.024066,
+    "lng": 4.840145,
+    "label": "Beaune, Côte-d'Or, Bourgogne-Franche-Comté, France",
+    "note": "Manual override to correct bad fallback geocode from Cote de Beaune entry"
+  },
+  "Joseph Drouhin": {
+    "lat": 47.023278,
+    "lng": 4.836222,
+    "label": "Maison Joseph Drouhin, Beaune",
+    "note": "Pinned HQ coordinate"
+  },
+  "Faiveley": {
+    "lat": 47.13501,
+    "lng": 4.968402,
+    "label": "Faiveley, Nuits-Saint-Georges",
+    "note": "Pinned winery coordinate"
+  }
+}

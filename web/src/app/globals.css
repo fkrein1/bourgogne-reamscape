@@ -1,0 +1,945 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root {
+  --background: #0a110f;
+  --foreground: #eef6e8;
+  --glass: color-mix(in oklab, #0f1b18 78%, transparent);
+  --glass-soft: color-mix(in oklab, #172622 62%, transparent);
+  --accent: #ccf09f;
+  --accent-2: #8ce6cb;
+  --danger: #fcb08a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  margin: 0;
+}
+
+.bourgogne-shell {
+  position: relative;
+  height: 100vh;
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+  background: radial-gradient(120% 100% at 20% 10%, #1e352f 0%, #0a110f 40%, #050807 100%);
+}
+
+.bourgogne-shell .maplibregl-map {
+  height: 100%;
+  width: 100%;
+}
+
+.bourgogne-atmosphere {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(45% 30% at 12% 20%, color-mix(in oklab, var(--accent) 28%, transparent), transparent 75%),
+    radial-gradient(36% 26% at 85% 65%, color-mix(in oklab, var(--accent-2) 20%, transparent), transparent 70%);
+  mix-blend-mode: screen;
+}
+
+.bourgogne-vignette {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 140px rgba(0, 0, 0, 0.72);
+}
+
+.bourgogne-hero {
+  position: absolute;
+  left: clamp(1rem, 3vw, 2.25rem);
+  top: calc(env(safe-area-inset-top, 0px) + clamp(1rem, 2.5vw, 1.75rem));
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  z-index: 20;
+}
+
+.bourgogne-hero p {
+  margin: 0;
+  font-size: 0.74rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--accent) 80%, white);
+}
+
+.bourgogne-hero h1 {
+  margin: 0;
+  font-family: var(--font-display), serif;
+  font-size: clamp(2rem, 4vw, 3.9rem);
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+  color: #fffef6;
+  text-shadow: 0 10px 45px rgba(5, 10, 10, 0.6);
+}
+
+.bourgogne-statbar {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.bourgogne-statbar span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid rgba(226, 255, 216, 0.18);
+  background: var(--glass-soft);
+  border-radius: 999px;
+  padding: 0.34rem 0.7rem;
+  font-size: 0.73rem;
+  color: rgba(240, 255, 233, 0.95);
+  backdrop-filter: blur(9px);
+}
+
+.bourgogne-controls {
+  position: absolute;
+  top: calc(env(safe-area-inset-top, 0px) + clamp(7rem, 12vw, 9.2rem));
+  left: clamp(1rem, 3vw, 2.25rem);
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.7rem;
+  max-width: min(100vw - 2rem, 820px);
+}
+
+.bourgogne-controls-toggle {
+  display: none;
+}
+
+.bourgogne-controls-backdrop {
+  display: none;
+}
+
+.bourgogne-control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  border: 1px solid rgba(214, 255, 200, 0.2);
+  border-radius: 0.82rem;
+  padding: 0.65rem;
+  background: var(--glass);
+  backdrop-filter: blur(8px);
+}
+
+.bourgogne-control-group p {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: rgba(221, 248, 212, 0.78);
+}
+
+.bourgogne-control-group button {
+  border: 1px solid transparent;
+  background: rgba(15, 24, 22, 0.45);
+  color: rgba(246, 255, 241, 0.94);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.38rem 0.72rem;
+  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.bourgogne-control-group button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(196, 255, 181, 0.4);
+}
+
+.bourgogne-control-group button.is-active {
+  background: color-mix(in oklab, var(--accent) 28%, #111f1a);
+  border-color: color-mix(in oklab, var(--accent) 48%, transparent);
+}
+
+.bourgogne-control-group select {
+  border-radius: 0.6rem;
+  border: 1px solid rgba(214, 255, 200, 0.28);
+  background: rgba(7, 14, 13, 0.8);
+  color: rgba(248, 255, 242, 0.96);
+  padding: 0.35rem 0.48rem;
+  font-size: 0.82rem;
+}
+
+.bourgogne-story {
+  position: absolute;
+  left: clamp(1rem, 3vw, 2.25rem);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + clamp(1rem, 2vw, 1.5rem));
+  z-index: 25;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: min(100vw - 2rem, 620px);
+  border: 1px solid rgba(229, 255, 211, 0.2);
+  background: var(--glass);
+  border-radius: 0.88rem;
+  padding: 0.75rem;
+  backdrop-filter: blur(10px);
+}
+
+.bourgogne-story p {
+  margin: 0;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: rgba(223, 255, 218, 0.75);
+}
+
+.bourgogne-story-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.bourgogne-story-controls {
+  display: inline-flex;
+  gap: 0.35rem;
+}
+
+.bourgogne-story-controls button {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(211, 251, 189, 0.28);
+  background: rgba(9, 17, 15, 0.75);
+  color: rgba(233, 252, 224, 0.95);
+}
+
+.bourgogne-story-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.bourgogne-story-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.7rem;
+}
+
+.bourgogne-story-meta strong {
+  width: 100%;
+  font-family: var(--font-display), serif;
+  font-size: 1.2rem;
+  color: #fffde8;
+}
+
+.bourgogne-story-meta span {
+  font-size: 0.74rem;
+  color: rgba(220, 242, 211, 0.85);
+}
+
+.bourgogne-story-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.44rem;
+  max-height: 5.2rem;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.bourgogne-story-pill {
+  border: 1px solid rgba(211, 251, 189, 0.2);
+  background: rgba(6, 14, 13, 0.78);
+  color: rgba(238, 249, 232, 0.98);
+  border-radius: 999px;
+  padding: 0.36rem 0.65rem;
+  font-size: 0.76rem;
+  max-width: min(48vw, 12rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bourgogne-story-pill.is-active {
+  background: color-mix(in oklab, var(--accent-2) 30%, #0d1e1b);
+  border-color: color-mix(in oklab, var(--accent-2) 56%, transparent);
+}
+
+.bourgogne-panel {
+  position: absolute;
+  top: clamp(1rem, 2.5vw, 1.75rem);
+  right: clamp(1rem, 2.8vw, 2rem);
+  z-index: 26;
+  width: min(28rem, calc(100vw - 2rem));
+  border: 1px solid rgba(224, 255, 213, 0.26);
+  border-radius: 1rem;
+  background: color-mix(in oklab, #0a1311 82%, transparent);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.46);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+}
+
+.bourgogne-panel header {
+  padding: 1rem 1rem 0.8rem;
+  border-bottom: 1px solid rgba(228, 255, 215, 0.16);
+}
+
+.bourgogne-panel header p {
+  margin: 0 0 0.22rem;
+  font-size: 0.73rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(218, 249, 204, 0.82);
+}
+
+.bourgogne-panel header h2 {
+  margin: 0;
+  font-family: var(--font-display), serif;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1;
+  color: #fffdf4;
+}
+
+.bourgogne-panel header span {
+  display: inline-block;
+  margin-top: 0.42rem;
+  font-size: 0.79rem;
+  color: rgba(235, 251, 227, 0.84);
+}
+
+.bourgogne-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding: 0.8rem 1rem 0.25rem;
+}
+
+.bourgogne-panel-grid article {
+  border-radius: 0.72rem;
+  border: 1px solid rgba(210, 252, 192, 0.2);
+  background: rgba(8, 15, 13, 0.7);
+  padding: 0.62rem;
+}
+
+.bourgogne-panel-grid h3 {
+  margin: 0;
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(204, 243, 189, 0.72);
+}
+
+.bourgogne-panel-grid p {
+  margin: 0.32rem 0 0;
+  font-size: 0.95rem;
+  color: #f5ffe6;
+}
+
+.bourgogne-panel-grid small {
+  display: block;
+  margin-top: 0.27rem;
+  font-size: 0.7rem;
+  color: rgba(206, 225, 198, 0.7);
+}
+
+.bourgogne-wine-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  gap: 0.38rem;
+  max-height: min(46vh, 360px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  padding: 0.6rem 1rem 1rem;
+}
+
+.bourgogne-wine-list button {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  border-radius: 0.7rem;
+  border: 1px solid rgba(207, 249, 191, 0.15);
+  background: rgba(10, 17, 15, 0.8);
+  padding: 0.58rem 0.64rem;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+
+.bourgogne-wine-list button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(198, 250, 177, 0.4);
+}
+
+.bourgogne-wine-list button.is-picked {
+  border-color: color-mix(in oklab, var(--accent-2) 56%, transparent);
+  background: color-mix(in oklab, var(--accent-2) 19%, #0b1815);
+}
+
+.bourgogne-wine-list p {
+  margin: 0;
+  color: #f4fdee;
+  font-size: 0.84rem;
+  line-height: 1.25;
+}
+
+.bourgogne-wine-list span {
+  color: rgba(208, 230, 198, 0.78);
+  font-size: 0.72rem;
+}
+
+.bourgogne-wine-list strong {
+  color: #feffd8;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.bourgogne-popup .maplibregl-popup-content {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.bourgogne-popup .maplibregl-popup-tip {
+  border-top-color: rgba(10, 17, 15, 0.88);
+}
+
+.bourgogne-popup-card {
+  border: 1px solid rgba(222, 255, 210, 0.2);
+  background: rgba(10, 17, 15, 0.88);
+  border-radius: 0.58rem;
+  padding: 0.5rem 0.62rem;
+}
+
+.bourgogne-popup-card p {
+  margin: 0;
+  color: #f5ffef;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.bourgogne-popup-card span {
+  color: rgba(213, 238, 203, 0.8);
+  font-size: 0.7rem;
+}
+
+.bourgogne-case-bar {
+  position: absolute;
+  right: clamp(1rem, 2.8vw, 2rem);
+  bottom: clamp(1rem, 2.4vw, 1.5rem);
+  z-index: 28;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  border: 1px solid rgba(212, 255, 196, 0.25);
+  background: color-mix(in oklab, #0f1e1a 78%, transparent);
+  border-radius: 1rem;
+  padding: 0.62rem 0.9rem;
+  max-width: min(38rem, calc(100vw - 1.5rem));
+  backdrop-filter: blur(10px);
+}
+
+.bourgogne-case-bar p {
+  margin: 0;
+  font-size: 0.78rem;
+  color: rgba(231, 250, 222, 0.95);
+}
+
+.bourgogne-case-bar strong {
+  font-size: 0.9rem;
+  color: #fff7cd;
+}
+
+.bourgogne-case-actions {
+  display: inline-flex;
+  gap: 0.45rem;
+}
+
+.bourgogne-case-actions button {
+  border: 1px solid rgba(216, 255, 195, 0.25);
+  border-radius: 999px;
+  background: rgba(9, 15, 14, 0.74);
+  color: rgba(237, 253, 227, 0.92);
+  font-size: 0.72rem;
+  padding: 0.28rem 0.62rem;
+}
+
+.bourgogne-case-flash {
+  font-size: 0.72rem;
+  color: rgba(204, 248, 186, 0.94);
+}
+
+.bourgogne-case-chiprow {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.bourgogne-case-chiprow span {
+  font-size: 0.7rem;
+  border: 1px solid rgba(220, 255, 206, 0.2);
+  border-radius: 999px;
+  background: rgba(7, 13, 12, 0.72);
+  color: rgba(232, 248, 221, 0.9);
+  padding: 0.22rem 0.56rem;
+}
+
+.bourgogne-legend {
+  position: absolute;
+  left: clamp(1rem, 3vw, 2.25rem);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + clamp(1rem, 2vw, 1.5rem));
+  z-index: 27;
+  width: min(23rem, calc(100vw - 2rem));
+  border: 1px solid rgba(219, 255, 200, 0.2);
+  border-radius: 0.9rem;
+  background: color-mix(in oklab, #0e1d19 74%, transparent);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+.bourgogne-legend-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  border: 0;
+  background: rgba(7, 14, 12, 0.64);
+  color: rgba(236, 250, 227, 0.95);
+  padding: 0.52rem 0.7rem;
+  font-size: 0.75rem;
+}
+
+.bourgogne-legend-toggle span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.bourgogne-legend-body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  padding: 0.62rem 0.7rem 0.72rem;
+}
+
+.bourgogne-legend-body div {
+  border-radius: 0.6rem;
+  border: 1px solid rgba(215, 248, 198, 0.12);
+  background: rgba(7, 13, 11, 0.48);
+  padding: 0.45rem 0.5rem;
+}
+
+.bourgogne-legend-body p {
+  margin: 0;
+  font-size: 0.68rem;
+  color: rgba(217, 246, 205, 0.95);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.bourgogne-legend-body span {
+  margin-top: 0.18rem;
+  display: block;
+  font-size: 0.64rem;
+  color: rgba(199, 223, 189, 0.85);
+  line-height: 1.25;
+}
+
+.bourgogne-fanout-layer {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 24;
+}
+
+.bourgogne-fanout-card {
+  all: unset;
+  pointer-events: auto;
+  cursor: pointer;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: min(180px, 34vw);
+  border: 1px solid rgba(220, 255, 202, 0.22);
+  border-radius: 0.72rem;
+  background: color-mix(in oklab, #0f1a17 82%, transparent);
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.45);
+  padding: 0.48rem 0.56rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  transition: transform 150ms ease, border-color 150ms ease;
+}
+
+.bourgogne-fanout-card:hover {
+  transform: translate(-50%, -51%);
+  border-color: rgba(214, 255, 192, 0.5);
+}
+
+.bourgogne-fanout-card.is-picked {
+  border-color: color-mix(in oklab, var(--accent-2) 66%, transparent);
+}
+
+.bourgogne-fanout-card span {
+  font-size: 0.72rem;
+  color: rgba(236, 249, 228, 0.95);
+  line-height: 1.22;
+}
+
+.bourgogne-fanout-card strong {
+  font-size: 0.72rem;
+  color: #fff4c4;
+}
+
+
+.bourgogne-onboarding {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 6, 5, 0.55);
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+}
+
+.bourgogne-onboarding-card {
+  width: min(34rem, 100%);
+  border-radius: 1rem;
+  border: 1px solid rgba(219, 255, 199, 0.25);
+  background: color-mix(in oklab, #0d1815 88%, transparent);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.58);
+  padding: 1rem 1rem 1.1rem;
+}
+
+.bourgogne-onboarding-card p {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(217, 247, 202, 0.83);
+}
+
+.bourgogne-onboarding-card h2 {
+  margin: 0.36rem 0 0.7rem;
+  font-family: var(--font-display), serif;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  color: #fdfce5;
+}
+
+.bourgogne-onboarding-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.bourgogne-onboarding-card li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.84rem;
+  color: rgba(235, 251, 227, 0.93);
+}
+
+.bourgogne-onboarding-card button {
+  margin-top: 0.8rem;
+  border: 1px solid rgba(206, 255, 186, 0.33);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--accent) 22%, #0f1c18);
+  color: #f8ffe8;
+  padding: 0.48rem 0.82rem;
+  font-size: 0.82rem;
+}
+
+.bourgogne-loading {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  color: rgba(230, 255, 219, 0.88);
+}
+
+.bourgogne-loading p {
+  margin: 0;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 940px) {
+  .bourgogne-hero {
+    left: 0.75rem;
+    right: 0.75rem;
+    top: calc(env(safe-area-inset-top, 0px) + 0.75rem);
+    max-width: 26rem;
+  }
+
+  .bourgogne-hero h1 {
+    max-width: 12ch;
+    font-size: clamp(1.7rem, 7.2vw, 2.5rem);
+  }
+
+  .bourgogne-statbar {
+    gap: 0.4rem;
+  }
+
+  .bourgogne-statbar span {
+    font-size: 0.68rem;
+    padding: 0.3rem 0.56rem;
+  }
+
+  .bourgogne-controls-toggle {
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    top: calc(env(safe-area-inset-top, 0px) + 0.75rem);
+    right: 0.75rem;
+    z-index: 35;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.34rem;
+    border: 1px solid rgba(216, 255, 200, 0.28);
+    background: color-mix(in oklab, #0f1b18 82%, transparent);
+    color: rgba(241, 252, 235, 0.97);
+    border-radius: 999px;
+    padding: 0.34rem 0.62rem;
+    font-size: 0.74rem;
+    backdrop-filter: blur(8px);
+  }
+
+  .bourgogne-controls-backdrop {
+    all: unset;
+    position: absolute;
+    inset: 0;
+    z-index: 33;
+    display: block;
+    background: rgba(4, 9, 8, 0.2);
+    backdrop-filter: blur(1.6px);
+  }
+
+  .bourgogne-controls {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    top: calc(env(safe-area-inset-top, 0px) + 3.4rem);
+    left: auto;
+    right: 0.75rem;
+    z-index: 34;
+    width: min(22rem, calc(100vw - 1.5rem));
+    max-width: none;
+    gap: 0.44rem;
+    border: 1px solid rgba(220, 255, 205, 0.22);
+    border-radius: 0.84rem;
+    background: color-mix(in oklab, #0d1815 88%, transparent);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 16px 44px rgba(0, 0, 0, 0.46);
+    padding: 0.46rem;
+  }
+
+  .bourgogne-controls.is-open {
+    display: flex;
+  }
+
+  .bourgogne-control-group {
+    min-width: 0;
+    flex: 0 0 auto;
+    padding: 0.55rem;
+  }
+
+  .bourgogne-control-group button,
+  .bourgogne-control-group select {
+    min-height: 2rem;
+  }
+
+  .bourgogne-panel {
+    top: auto;
+    left: 0.75rem;
+    right: 0.75rem;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 0.75rem);
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+    max-height: min(46dvh, 22rem);
+  }
+
+  .bourgogne-wine-list {
+    flex: 0 0 auto;
+    min-height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .bourgogne-case-bar {
+    right: 0.75rem;
+    left: 0.75rem;
+    justify-content: flex-start;
+  }
+
+  .bourgogne-story {
+    left: 0.75rem;
+    right: 0.75rem;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 0.75rem);
+    max-width: none;
+    max-height: min(38dvh, 18rem);
+    padding: 0.62rem;
+    overflow: auto;
+  }
+
+  .bourgogne-legend {
+    width: calc(100vw - 1.5rem);
+    left: 0.75rem;
+  }
+
+  .bourgogne-legend-body {
+    grid-template-columns: 1fr;
+  }
+
+  .bourgogne-fanout-layer {
+    display: none;
+  }
+
+  .bourgogne-shell .maplibregl-ctrl-bottom-right {
+    display: none;
+  }
+
+}
+
+@media (max-width: 640px) {
+  .bourgogne-hero {
+    max-width: none;
+  }
+
+  .bourgogne-hero p {
+    font-size: 0.67rem;
+    letter-spacing: 0.16em;
+  }
+
+  .bourgogne-hero h1 {
+    max-width: 11ch;
+    font-size: clamp(1.46rem, 8vw, 2rem);
+  }
+
+  .bourgogne-statbar {
+    gap: 0.32rem;
+  }
+
+  .bourgogne-statbar span {
+    font-size: 0.64rem;
+    padding: 0.25rem 0.48rem;
+  }
+
+  .bourgogne-controls-toggle {
+    top: calc(env(safe-area-inset-top, 0px) + 0.5rem);
+    right: 0.5rem;
+    padding: 0.3rem 0.56rem;
+    font-size: 0.7rem;
+  }
+
+  .bourgogne-controls {
+    top: calc(env(safe-area-inset-top, 0px) + 3rem);
+    right: 0.5rem;
+    width: min(18.5rem, calc(100vw - 1rem));
+    padding: 0.4rem;
+  }
+
+  .bourgogne-controls .bourgogne-control-group {
+    min-width: 0;
+    padding: 0.5rem;
+  }
+
+  .bourgogne-control-group p {
+    font-size: 0.66rem;
+  }
+
+  .bourgogne-control-group button,
+  .bourgogne-control-group select {
+    font-size: 0.78rem;
+  }
+
+  .bourgogne-story {
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 0.5rem);
+    max-height: min(42dvh, 16rem);
+  }
+
+  .bourgogne-story-meta strong {
+    font-size: 1.02rem;
+  }
+
+  .bourgogne-story-meta span {
+    font-size: 0.69rem;
+  }
+
+  .bourgogne-panel {
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 0.5rem);
+    width: auto;
+    border-radius: 0.8rem;
+    max-height: min(50dvh, 20rem);
+  }
+
+  .bourgogne-panel header {
+    padding: 0.75rem 0.8rem 0.62rem;
+  }
+
+  .bourgogne-panel-grid {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+    padding: 0.6rem 0.8rem 0.15rem;
+  }
+
+  .bourgogne-wine-list {
+    max-height: none;
+    overflow: visible;
+    padding: 0.52rem 0.8rem 0.8rem;
+  }
+
+  .bourgogne-wine-list button {
+    align-items: flex-start;
+    gap: 0.22rem;
+  }
+
+  .bourgogne-wine-list strong {
+    align-self: flex-end;
+  }
+}

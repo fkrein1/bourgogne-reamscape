@@ -1,0 +1,946 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.880567,
+          47.175756
+        ]
+      },
+      "properties": {
+        "producer": "Joseph Drouhin",
+        "grape": "Pinot Noir",
+        "wine_count": 35,
+        "avg_price_brl": 2934.83,
+        "dominant_style_keywords": [
+          "fruity",
+          "structured",
+          "complex",
+          "elegant",
+          "persistent"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.751488,
+          47.156769
+        ]
+      },
+      "properties": {
+        "producer": "Domaine de Montille",
+        "grape": "Pinot Noir",
+        "wine_count": 32,
+        "avg_price_brl": 2153.74,
+        "dominant_style_keywords": [
+          "fruity",
+          "mineral",
+          "complex",
+          "floral",
+          "elegant"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.846684,
+          47.248983
+        ]
+      },
+      "properties": {
+        "producer": "Faiveley",
+        "grape": "Pinot Noir",
+        "wine_count": 31,
+        "avg_price_brl": 2183.05,
+        "dominant_style_keywords": [
+          "elegant",
+          "complex",
+          "fruity",
+          "structured",
+          "balanced"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.483908,
+          47.349062
+        ]
+      },
+      "properties": {
+        "producer": "Joseph Drouhin",
+        "grape": "Chardonnay",
+        "wine_count": 27,
+        "avg_price_brl": 2922.8,
+        "dominant_style_keywords": [
+          "fruity",
+          "mineral",
+          "complex",
+          "fresh",
+          "floral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.960369,
+          47.165039
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Comte Georges de Vogüé",
+        "grape": "Pinot Noir",
+        "wine_count": 18,
+        "avg_price_brl": 10295.14,
+        "dominant_style_keywords": [
+          "complex",
+          "elegant",
+          "fruity",
+          "floral",
+          "structured"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.750757,
+          47.12808
+        ]
+      },
+      "properties": {
+        "producer": "Domaine de Montille",
+        "grape": "Chardonnay",
+        "wine_count": 17,
+        "avg_price_brl": 1283.68,
+        "dominant_style_keywords": [
+          "complex",
+          "fresh",
+          "mineral",
+          "floral",
+          "fruity"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.67157,
+          47.307519
+        ]
+      },
+      "properties": {
+        "producer": "Faiveley",
+        "grape": "Chardonnay",
+        "wine_count": 14,
+        "avg_price_brl": 2470.03,
+        "dominant_style_keywords": [
+          "fruity",
+          "complex",
+          "mineral",
+          "fresh",
+          "acidic"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.790766,
+          47.57626
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Cécile Tremblay",
+        "grape": "Pinot Noir",
+        "wine_count": 10,
+        "avg_price_brl": 0.0,
+        "dominant_style_keywords": [
+          "fruity",
+          "fresh",
+          "structured",
+          "woody_oak",
+          "elegant"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.953133,
+          47.204447
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Dugat-Py",
+        "grape": "Pinot Noir",
+        "wine_count": 10,
+        "avg_price_brl": 5206.47,
+        "dominant_style_keywords": [
+          "complex",
+          "fruity",
+          "floral",
+          "acidic",
+          "elegant"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.800166,
+          47.815207
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Jean Paul Droin",
+        "grape": "Chardonnay",
+        "wine_count": 10,
+        "avg_price_brl": 1275.4,
+        "dominant_style_keywords": [
+          "fruity",
+          "mineral",
+          "floral",
+          "fresh",
+          "structured"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.95184,
+          47.134943
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Jean-Marc Millot",
+        "grape": "Pinot Noir",
+        "wine_count": 9,
+        "avg_price_brl": 1007.49,
+        "dominant_style_keywords": [
+          "fruity",
+          "fresh",
+          "elegant",
+          "mineral",
+          "complex"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.965298,
+          47.160297
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Robert Groffier",
+        "grape": "Pinot Noir",
+        "wine_count": 9,
+        "avg_price_brl": 8489.82,
+        "dominant_style_keywords": [
+          "fruity",
+          "complex",
+          "elegant",
+          "structured",
+          "balanced"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.971422,
+          47.131447
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Stéphane Magnien",
+        "grape": "Pinot Noir",
+        "wine_count": 9,
+        "avg_price_brl": 2417.28,
+        "dominant_style_keywords": [
+          "fruity",
+          "structured",
+          "floral",
+          "elegant",
+          "complex"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.800166,
+          47.815207
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Billaud-Simon",
+        "grape": "Chardonnay",
+        "wine_count": 8,
+        "avg_price_brl": 1040.68,
+        "dominant_style_keywords": [
+          "mineral",
+          "fruity",
+          "floral",
+          "fresh",
+          "elegant"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.846138,
+          47.086548
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Simon Bize",
+        "grape": "Pinot Noir",
+        "wine_count": 7,
+        "avg_price_brl": 1635.42,
+        "dominant_style_keywords": [
+          "complex",
+          "fruity",
+          "floral",
+          "structured",
+          "mineral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.772366,
+          46.996653
+        ]
+      },
+      "properties": {
+        "producer": "Domaine des Comtes Lafon",
+        "grape": "Pinot Noir",
+        "wine_count": 7,
+        "avg_price_brl": 1779.61,
+        "dominant_style_keywords": [
+          "fruity",
+          "elegant",
+          "structured",
+          "complex"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.971422,
+          47.131447
+        ]
+      },
+      "properties": {
+        "producer": "Domaine du Comte Liger-Belair",
+        "grape": "Pinot Noir",
+        "wine_count": 7,
+        "avg_price_brl": 0.0,
+        "dominant_style_keywords": [
+          "complex",
+          "elegant",
+          "mineral",
+          "fruity",
+          "floral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.829024,
+          46.432806
+        ]
+      },
+      "properties": {
+        "producer": "Les Héritiers du Comte Lafon",
+        "grape": "Chardonnay",
+        "wine_count": 7,
+        "avg_price_brl": 629.72,
+        "dominant_style_keywords": [
+          "elegant",
+          "mineral",
+          "balanced",
+          "fruity",
+          "floral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.832227,
+          46.303668
+        ]
+      },
+      "properties": {
+        "producer": "Les Héritiers du Comte Lafon",
+        "grape": "Unknown",
+        "wine_count": 5,
+        "avg_price_brl": 542.6,
+        "dominant_style_keywords": [
+          "mineral",
+          "elegant",
+          "complex",
+          "fruity",
+          "woody_oak"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.743542,
+          46.875806
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Aubert & Paméla de Villaine",
+        "grape": "Chardonnay",
+        "wine_count": 4,
+        "avg_price_brl": 1518.66,
+        "dominant_style_keywords": [
+          "fruity",
+          "floral",
+          "complex",
+          "elegant",
+          "mineral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.746704,
+          46.945637
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Jacques Carillon",
+        "grape": "Chardonnay",
+        "wine_count": 4,
+        "avg_price_brl": 1240.46,
+        "dominant_style_keywords": [
+          "elegant",
+          "complex",
+          "mineral",
+          "fresh"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.180565,
+          48.20067
+        ]
+      },
+      "properties": {
+        "producer": "Maison de Montille",
+        "grape": "Chardonnay",
+        "wine_count": 4,
+        "avg_price_brl": 854.37,
+        "dominant_style_keywords": [
+          "fresh",
+          "balanced",
+          "mineral",
+          "complex",
+          "floral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.732906,
+          46.953423
+        ]
+      },
+      "properties": {
+        "producer": "Deux Montille",
+        "grape": "Chardonnay",
+        "wine_count": 3,
+        "avg_price_brl": 708.42,
+        "dominant_style_keywords": [
+          "fruity",
+          "fresh",
+          "acidic",
+          "floral",
+          "woody_oak"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.479868,
+          47.581555
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Aubert & Paméla de Villaine",
+        "grape": "Pinot Noir",
+        "wine_count": 3,
+        "avg_price_brl": 1067.22,
+        "dominant_style_keywords": [
+          "fresh",
+          "fruity",
+          "acidic",
+          "complex"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.792313,
+          47.002818
+        ]
+      },
+      "properties": {
+        "producer": "Domaine des Comtes Lafon",
+        "grape": "Chardonnay",
+        "wine_count": 3,
+        "avg_price_brl": 0.0,
+        "dominant_style_keywords": [
+          "mineral",
+          "acidic",
+          "complex",
+          "elegant",
+          "floral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.887559,
+          47.08863
+        ]
+      },
+      "properties": {
+        "producer": "Joseph Drouhin",
+        "grape": "Unknown",
+        "wine_count": 3,
+        "avg_price_brl": 4888.43,
+        "dominant_style_keywords": [
+          "complex",
+          "fruity",
+          "elegant",
+          "floral",
+          "woody_oak"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.885293,
+          46.864686
+        ]
+      },
+      "properties": {
+        "producer": "Maison de Montille",
+        "grape": "Unknown",
+        "wine_count": 3,
+        "avg_price_brl": 810.66,
+        "dominant_style_keywords": [
+          "mineral",
+          "woody_oak",
+          "balanced"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.726572,
+          46.889767
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Aubert & Paméla de Villaine",
+        "grape": "Aligoté",
+        "wine_count": 2,
+        "avg_price_brl": 686.88,
+        "dominant_style_keywords": [
+          "mineral",
+          "fruity"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.971422,
+          47.131447
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Jean-Marc Millot",
+        "grape": "Aligoté",
+        "wine_count": 2,
+        "avg_price_brl": 563.93,
+        "dominant_style_keywords": [
+          "mineral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.883398,
+          47.117489
+        ]
+      },
+      "properties": {
+        "producer": "Faiveley",
+        "grape": "Unknown",
+        "wine_count": 2,
+        "avg_price_brl": 2628.32,
+        "dominant_style_keywords": [
+          "fruity",
+          "elegant",
+          "mineral",
+          "balanced"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.068142,
+          49.35551
+        ]
+      },
+      "properties": {
+        "producer": "Maison de Montille",
+        "grape": "Pinot Noir",
+        "wine_count": 2,
+        "avg_price_brl": 609.72,
+        "dominant_style_keywords": [
+          "complex"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.765808,
+          46.992872
+        ]
+      },
+      "properties": {
+        "producer": "Château de Puligny-Montrachet",
+        "grape": "Unknown",
+        "wine_count": 1,
+        "avg_price_brl": 686.88,
+        "dominant_style_keywords": [
+          "elegant",
+          "fruity",
+          "balanced"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.743542,
+          46.875806
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Aubert & Paméla de Villaine",
+        "grape": "Unknown",
+        "wine_count": 1,
+        "avg_price_brl": 1253.94,
+        "dominant_style_keywords": [
+          "complex",
+          "fruity",
+          "floral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.800166,
+          47.815207
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Billaud-Simon",
+        "grape": "Unknown",
+        "wine_count": 1,
+        "avg_price_brl": 814.84,
+        "dominant_style_keywords": [
+          "floral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.845323,
+          47.022711
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Bonneau du Martray",
+        "grape": "Chardonnay",
+        "wine_count": 1,
+        "avg_price_brl": 0.0,
+        "dominant_style_keywords": [
+          "complex",
+          "structured"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.765808,
+          46.992872
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Dugat-Py",
+        "grape": "Unknown",
+        "wine_count": 1,
+        "avg_price_brl": 1624.67,
+        "dominant_style_keywords": [
+          "complex",
+          "mineral",
+          "floral",
+          "persistent"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.971422,
+          47.131447
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Jean-Marc Millot",
+        "grape": "Unknown",
+        "wine_count": 1,
+        "avg_price_brl": 563.93,
+        "dominant_style_keywords": [
+          "mineral"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.818553,
+          47.062861
+        ]
+      },
+      "properties": {
+        "producer": "Domaine Simon Bize",
+        "grape": "Chardonnay",
+        "wine_count": 1,
+        "avg_price_brl": 871.3,
+        "dominant_style_keywords": [
+          "mineral",
+          "balanced"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.72736,
+          46.93636
+        ]
+      },
+      "properties": {
+        "producer": "Domaine de Montille",
+        "grape": "Unknown",
+        "wine_count": 1,
+        "avg_price_brl": 1504.86,
+        "dominant_style_keywords": [
+          "complex",
+          "fruity",
+          "floral",
+          "fresh",
+          "acidic"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.068142,
+          49.35551
+        ]
+      },
+      "properties": {
+        "producer": "Joseph Drouhin",
+        "grape": "Aligoté",
+        "wine_count": 1,
+        "avg_price_brl": 329.33,
+        "dominant_style_keywords": [
+          "fresh"
+        ],
+        "point_kind": "producer_grape"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.69963,
+          46.911507
+        ]
+      },
+      "properties": {
+        "producer": "Joseph Drouhin",
+        "grape": "Gamay",
+        "wine_count": 1,
+        "avg_price_brl": 814.84,
+        "dominant_style_keywords": [
+          "fruity",
+          "structured"
+        ],
+        "point_kind": "producer_grape"
+      }
+    }
+  ]
+}

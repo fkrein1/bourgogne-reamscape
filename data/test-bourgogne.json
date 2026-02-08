@@ -1,0 +1,153 @@
+{
+  "generated_at_unix": 1770574927,
+  "source": "https://www.mistral.com.br/regiao/bourgogne",
+  "meta": {
+    "nb_hits": 317,
+    "hits_per_page": 24,
+    "total_pages": 14,
+    "collected_wines": 5
+  },
+  "count": 5,
+  "items": [
+    {
+      "id": 35450,
+      "slug": "monthelie-1er-cru-les-duresses-2020-faiveley",
+      "url": "https://www.mistral.com.br/produto/monthelie-1er-cru-les-duresses-2020-faiveley",
+      "title_listing": "Monthélie 1er Cru Les Duresses 2020 (Faiveley)",
+      "name_product": "Monthélie 1er Cru Les Duresses 2020",
+      "producer": "Faiveley",
+      "country": "França",
+      "country_of_origin": "Vinho francês",
+      "region": "Bourgogne",
+      "sub_region": "Monthelie",
+      "grape": "Pinot Noir",
+      "bottle_size": "750ml",
+      "description_card": "Tinto, Pinot Noir, França",
+      "description": "Classificado pela Burghound como um vinho de “qualidade sólida”, este Monthélie se destaca pelos sabores vigorosos e cheios de nuances. Mais um acerto do Domaine Faiveley, que vem conquistando a crítica especializada com rótulos cada vez mais precisos e expressivos.",
+      "stock": 23,
+      "price_brl": {
+        "listing_sale_price": 875.07,
+        "product_ldjson_price": 875.06,
+        "currency": "BRL"
+      },
+      "availability": "https://schema.org/InStock",
+      "image": "https://cdn.mistral.com.br/products/35450/img_h_35450.png",
+      "source": {
+        "listing_page": "https://www.mistral.com.br/regiao/bourgogne?live_sync%5Brange%5D%5Bsale_price%5D=0%3A1000000&live_sync%5Bpage%5D=1",
+        "product_page": "https://www.mistral.com.br/produto/monthelie-1er-cru-les-duresses-2020-faiveley"
+      }
+    },
+    {
+      "id": 35680,
+      "slug": "bourgogne-joseph-faiveley-chardonnay-2020-faiveley",
+      "url": "https://www.mistral.com.br/produto/bourgogne-joseph-faiveley-chardonnay-2020-faiveley",
+      "title_listing": "Bourgogne Chardonnay 2020 (Faiveley)",
+      "name_product": "Bourgogne Chardonnay 2020",
+      "producer": "Faiveley",
+      "country": "França",
+      "country_of_origin": "Vinho francês",
+      "region": "Bourgogne",
+      "sub_region": "Bourgogne",
+      "grape": "Chardonnay",
+      "bottle_size": "750ml",
+      "description_card": "Branco, Chardonnay (100%), França",
+      "description": "Este belo Borgonha Branco homenageia George Faiveley, um dos fundadores da “Confrérie des Chevaliers du Tastevin”. Produzido com uvas provenientes tanto dos vinhedos próprios da Domaine Faiveley quanto de parceiros cuidadosamente selecionados, o vinho apresenta um delicioso equilíbrio entre frutas frescas e acidez marcante, harmonizado por delicadas notas de madeira obtidas durante seu envelhecimento parcial em barricas de carvalho de alta qualidade. Exibe ótima complexidade e excelente relação qualidade/preço.",
+      "stock": 608,
+      "price_brl": {
+        "listing_sale_price": 563.93,
+        "product_ldjson_price": 563.93,
+        "currency": "BRL"
+      },
+      "availability": "https://schema.org/InStock",
+      "image": "https://cdn.mistral.com.br/products/35680/img_h_35680.png",
+      "source": {
+        "listing_page": "https://www.mistral.com.br/regiao/bourgogne?live_sync%5Brange%5D%5Bsale_price%5D=0%3A1000000&live_sync%5Bpage%5D=1",
+        "product_page": "https://www.mistral.com.br/produto/bourgogne-joseph-faiveley-chardonnay-2020-faiveley"
+      }
+    },
+    {
+      "id": 36202,
+      "slug": "jacques-carillon-puligny-montrachet-2020-domaine-jacques-carillon",
+      "url": "https://www.mistral.com.br/produto/jacques-carillon-puligny-montrachet-2020-domaine-jacques-carillon",
+      "title_listing": "Jacques Carillon Puligny Montrachet 2020 (Domaine Jacques Carillon)",
+      "name_product": "Jacques Carillon Puligny Montrachet 2020",
+      "producer": "Domaine Jacques Carillon ",
+      "country": "França",
+      "country_of_origin": "Vinho francês",
+      "region": "Bourgogne",
+      "sub_region": "Puligny-Montrachet",
+      "grape": "Chardonnay",
+      "bottle_size": "750ml",
+      "description_card": "Branco, chardonnay, França",
+      "description": "Um dos pouquíssimos Domaines da Borgonha a receber as máximas 3 estrelas de Clive Coates, Domaine Carillon elabora alguns dos mais finos e elegantes brancos de todo o mundo. O excelente Puligny-Montrachet é elaborado com uvas de 11 parcelas com idade média de 35 anos, resultando em um vinho que compete com os 1er Crus de outros produtores. Um grande branco e uma excelente expressão da uva Chardonnay.",
+      "stock": 117,
+      "price_brl": {
+        "listing_sale_price": 1351.8,
+        "product_ldjson_price": 1351.8,
+        "currency": "BRL"
+      },
+      "availability": "https://schema.org/InStock",
+      "image": "https://cdn.mistral.com.br/products/36202/img_h_36202.png",
+      "source": {
+        "listing_page": "https://www.mistral.com.br/regiao/bourgogne?live_sync%5Brange%5D%5Bsale_price%5D=0%3A1000000&live_sync%5Bpage%5D=1",
+        "product_page": "https://www.mistral.com.br/produto/jacques-carillon-puligny-montrachet-2020-domaine-jacques-carillon"
+      }
+    },
+    {
+      "id": 36291,
+      "slug": "monthelie-les-duresses-1er-cru-2019-domaine-des-comtes-lafon",
+      "url": "https://www.mistral.com.br/produto/monthelie-les-duresses-1er-cru-2019-domaine-des-comtes-lafon",
+      "title_listing": "Monthélie-les Duresses 1er Cru 2019 (Domaine Des Comtes Lafon)",
+      "name_product": "Monthélie-les Duresses 1er Cru 2019",
+      "producer": "Domaine des Comtes Lafon",
+      "country": "França",
+      "country_of_origin": "Vinho francês",
+      "region": "Bourgogne",
+      "sub_region": "Monthelie",
+      "grape": "Pinot Noir",
+      "bottle_size": "750ml",
+      "description_card": "Tinto, Pinot Noir (100%), França",
+      "description": "Um vinho de \"sólida qualidade\", para a Burghound, que elogiou os sabores \"vigorosos e repletos de nuances\" deste Monthélie. Mais um triunfo do Domaine des Comtes Lafon, que tem elaborado vinhos que estão arrancando notas impressionantes da imprensa especializada.",
+      "stock": 55,
+      "price_brl": {
+        "listing_sale_price": 1251.44,
+        "product_ldjson_price": 1251.43,
+        "currency": "BRL"
+      },
+      "availability": "https://schema.org/InStock",
+      "image": "https://cdn.mistral.com.br/products/36291/img_h_36291.png",
+      "source": {
+        "listing_page": "https://www.mistral.com.br/regiao/bourgogne?live_sync%5Brange%5D%5Bsale_price%5D=0%3A1000000&live_sync%5Bpage%5D=1",
+        "product_page": "https://www.mistral.com.br/produto/monthelie-les-duresses-1er-cru-2019-domaine-des-comtes-lafon"
+      }
+    },
+    {
+      "id": 37938,
+      "slug": "chablis-2022-joseph-drouhin",
+      "url": "https://www.mistral.com.br/produto/chablis-2022-joseph-drouhin",
+      "title_listing": "Chablis 2022 (Joseph Drouhin)",
+      "name_product": "Chablis 2022",
+      "producer": "Joseph Drouhin",
+      "country": "França",
+      "country_of_origin": "Vinho francês",
+      "region": "Bourgogne",
+      "sub_region": "Chablis",
+      "grape": "Chardonnay",
+      "bottle_size": "750ml",
+      "description_card": "Branco, Chardonnay, França",
+      "description": "Este delicioso branco, elaborado pela Maison Drouhin, reflete a verdadeira essência de Chablis. Com sua elegância inconfundível, apresenta aromas frutados e uma complexidade que encanta, acompanhada de uma mineralidade marcante. Sua acidez vibrante o torna a companhia perfeita para uma ampla gama de pratos, como aves, peixes, ostras e outros frutos do mar, elevando qualquer ocasião com sofisticação.",
+      "stock": 710,
+      "price_brl": {
+        "listing_sale_price": 601.57,
+        "product_ldjson_price": 601.57,
+        "currency": "BRL"
+      },
+      "availability": "https://schema.org/InStock",
+      "image": "https://cdn.mistral.com.br/products/37938/img_h_37938.png",
+      "source": {
+        "listing_page": "https://www.mistral.com.br/regiao/bourgogne?live_sync%5Brange%5D%5Bsale_price%5D=0%3A1000000&live_sync%5Bpage%5D=1",
+        "product_page": "https://www.mistral.com.br/produto/chablis-2022-joseph-drouhin"
+      }
+    }
+  ]
+}
