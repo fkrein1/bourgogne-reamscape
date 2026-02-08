@@ -49,11 +49,10 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: clamp(0.62rem, 1.1vw, 0.84rem);
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .bourgogne-top-hud > * {
-  pointer-events: auto;
   max-width: 100%;
 }
 
