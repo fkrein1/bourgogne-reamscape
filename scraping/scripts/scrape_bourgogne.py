@@ -25,8 +25,9 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 LISTING_BASE_URL = "https://www.mistral.com.br/regiao/bourgogne"
-DEFAULT_OUTPUT = Path("data/bourgogne-wines.json")
-DEFAULT_RAW_OUTPUT = Path("data/bourgogne-wines.raw.json")
+BASE_DIR = Path(__file__).resolve().parent.parent
+DEFAULT_OUTPUT = BASE_DIR / "data" / "bourgogne-wines.json"
+DEFAULT_RAW_OUTPUT = BASE_DIR / "data" / "bourgogne-wines.raw.json"
 
 DEFAULT_HEADERS = {
     "User-Agent": (

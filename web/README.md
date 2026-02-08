@@ -7,9 +7,9 @@ Next.js app that renders an interactive Bourgogne wine map experience from preco
 - Frontend: Next.js App Router (`src/app`)
 - Main screen: one-page immersive map (`/`)
 - Data source: generated scene file at `public/data/bourgogne-scene.json`
-- Data generation script: `scripts/prepare-map-data.mjs` (reads `../data/*`)
+- Data generation script: `scripts/prepare-map-data.mjs` (reads `../scraping/data/*`)
 
-This `web` app is the presentation layer. The scraping/enrichment pipeline lives in the repo root (`/scripts`, `/data`).
+This `web` app is the presentation layer. The scraping/enrichment pipeline lives in `/scraping`.
 
 ## Quick Start
 
@@ -42,15 +42,15 @@ npm run build
 
 `prepare:data` reads:
 
-- `../data/bourgogne-wines.enriched.json`
-- `../data/bourgogne-producers.enriched.json`
-- `../data/bourgogne-subregions.enriched.json`
-- `../data/bourgogne-grapes.enriched.json`
-- `../data/bourgogne-producer-grape-points.geojson`
-- `../data/bourgogne-producers.geojson`
-- `../data/bourgogne-subregions.geojson`
-- `../data/bourgogne-subregions.polygons.geojson` (optional)
-- `../data/producer-coordinate-overrides.json` (optional)
+- `../scraping/data/bourgogne-wines.enriched.json`
+- `../scraping/data/bourgogne-producers.enriched.json`
+- `../scraping/data/bourgogne-subregions.enriched.json`
+- `../scraping/data/bourgogne-grapes.enriched.json`
+- `../scraping/data/bourgogne-producer-grape-points.geojson`
+- `../scraping/data/bourgogne-producers.geojson`
+- `../scraping/data/bourgogne-subregions.geojson`
+- `../scraping/data/bourgogne-subregions.polygons.geojson` (optional)
+- `../scraping/data/producer-coordinate-overrides.json` (optional)
 
 and outputs:
 

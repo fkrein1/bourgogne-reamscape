@@ -20,10 +20,11 @@ from typing import Any
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-INPUT = Path("data/bourgogne-subregions.enriched.json")
-OUT_GEOJSON = Path("data/bourgogne-subregions.polygons.geojson")
-OUT_REPORT = Path("data/bourgogne-subregions.polygons.report.json")
-CACHE_PATH = Path("data/subregion-polygons-cache.json")
+BASE_DIR = Path(__file__).resolve().parent.parent
+INPUT = BASE_DIR / "data" / "bourgogne-subregions.enriched.json"
+OUT_GEOJSON = BASE_DIR / "data" / "bourgogne-subregions.polygons.geojson"
+OUT_REPORT = BASE_DIR / "data" / "bourgogne-subregions.polygons.report.json"
+CACHE_PATH = BASE_DIR / "data" / "subregion-polygons-cache.json"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 
 ALLOWED_CLASSES = {"boundary", "place", "landuse", "natural"}

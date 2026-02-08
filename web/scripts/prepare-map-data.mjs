@@ -4,7 +4,13 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = path.resolve(process.cwd(), "..");
-const sourceDir = path.join(root, "data");
+const sourceDirCandidates = [
+  path.join(root, "scraping", "data"),
+  path.join(root, "data"),
+];
+const sourceDir =
+  sourceDirCandidates.find((candidate) => fs.existsSync(candidate)) ??
+  sourceDirCandidates[0];
 const outDir = path.join(process.cwd(), "public", "data");
 
 const files = {

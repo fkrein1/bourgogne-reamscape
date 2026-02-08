@@ -33,9 +33,10 @@ from urllib.request import Request, urlopen
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 WIKIDATA_SEARCH_URL = "https://www.wikidata.org/w/api.php"
 WIKIDATA_ENTITY_URL = "https://www.wikidata.org/wiki/Special:EntityData"
-DEFAULT_INPUT = Path("data/bourgogne-wines.json")
-DEFAULT_OUTPUT_DIR = Path("data")
-DEFAULT_CACHE = Path("data/geocode-cache.json")
+BASE_DIR = Path(__file__).resolve().parent.parent
+DEFAULT_INPUT = BASE_DIR / "data" / "bourgogne-wines.json"
+DEFAULT_OUTPUT_DIR = BASE_DIR / "data"
+DEFAULT_CACHE = BASE_DIR / "data" / "geocode-cache.json"
 
 STYLE_PATTERNS = {
     "elegant": [r"\belegan"],
