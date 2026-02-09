@@ -2,6 +2,10 @@
 
 Interactive wine map experience focused on Bourgogne producers, sub-regions, grapes, and labels.
 
+<a href="https://youtube.com/shorts/JdeRzfK_v90" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.youtube.com/vi/JdeRzfK_v90/maxresdefault.jpg" alt="▶️ Watch on YouTube" />
+</a>
+
 ## Project Structure
 
 - `web/`: Next.js app (UI + map experience)
